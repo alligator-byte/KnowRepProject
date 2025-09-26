@@ -11,3 +11,14 @@ from owlready2 import *
 
 # Create a new ontology
 onto = get_ontology("http://example.org/git-onto-logic.owl")
+
+
+
+
+#below code is notes from Workshop W9 to help out
+onto = get_ontology("file://Users/.../GitOnto.owx") #"can be the xml/owl file you make with protege"
+
+b = onto.Branch
+print(Branch)
+myBranch = Branch("main")
+print myBranch
