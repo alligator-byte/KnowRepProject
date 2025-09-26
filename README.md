@@ -46,6 +46,7 @@
 ---
 
 ### 📘 User Manual (25%) [MED PRIORITY]
+How to interact with what we've made
 
 * [ ] Write a **User Manual** in PDF or Markdown/HTML, including:
 
