@@ -3,7 +3,7 @@
 
 # From LMS Spec (summary)
 
-### 📦 Ontology Design (25%)
+### 📦 Ontology Design (25%) [HIGH PRIORITY]
 
 * [ ] Design an OWL ontology using **OWLReady2** to represent key Git concepts:
 
@@ -22,7 +22,7 @@
 
 ---
 
-### 🧠 Knowledge Graph + Queries (25%)
+### 🧠 Knowledge Graph + Queries (25%) [HIGH PRIORITY]
 
 * [ ] Build a **knowledge graph in OWLReady2** using metadata from **at least 20 Git repositories**
 * [ ] Provide a `.py` script to load data into **RDFLib** and run **SPARQL queries**:
@@ -34,7 +34,7 @@
 
 ---
 
-### 🖥️ Python App (15%)
+### 🖥️ Python App (15%) [LOW PRIORITY]
 
 * [ ] Create a **command-line or Flask-based application** to:
 
@@ -45,7 +45,7 @@
 
 ---
 
-### 📘 User Manual (25%)
+### 📘 User Manual (25%) [MED PRIORITY]
 
 * [ ] Write a **User Manual** in PDF or Markdown/HTML, including:
 
@@ -56,7 +56,7 @@
 
 ---
 
-### 🧾 Individual Report (10%)
+### 🧾 Individual Report (10%) [LOW PRIORITY]
 
 * [ ] Write a **personal PDF report** discussing:
 
