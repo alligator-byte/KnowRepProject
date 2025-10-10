@@ -1,24 +1,10 @@
 """
-should use OWL2Ready to define:
-- Repository, Branch, Commit, User, File
-- Properties: hasBranch, hasCommit, authoredBy, modifiesFile, hasParent, etc.
-- Datatype properties: timestamp, commitMessage, branchName
+Utility to load the ontology built by build_ontology.py
 """
+from owlready2 import get_ontology
 
-#have to double check if this is the correct way to start this file
-
-from owlready2 import *
-
-# Create a new ontology
-onto = get_ontology("http://example.org/git-onto-logic.owl")
+ONTO_IRI = "http://example.org/git-ontology#"
 
 
-
-
-#below code is notes from Workshop W9 to help out
-onto = get_ontology("file://Users/.../GitOnto.owx") #"can be the xml/owl file you make with protege"
-
-b = onto.Branch
-print(Branch)
-myBranch = Branch("main")
-print myBranch
+def load_ontology():
+    return get_ontology(ONTO_IRI).load()

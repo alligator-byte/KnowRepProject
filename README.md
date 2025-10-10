@@ -83,3 +83,49 @@ How to interact with what we've made
   * Individual report (PDF)
 * ⚠️ Do **not** include full Git repositories — only metadata necessary to demonstrate functionality
 
+---
+
+## How to run (Windows PowerShell)
+
+1) Install dependencies (Python 3.8+):
+
+```
+pip install -r requirements.txt
+```
+
+2) Build ontology and populate synthetic data (20 repos):
+
+```
+python build_ontology.py ; python load_data.py
+```
+
+This produces:
+- `ontology/git_ontology.owl` (ontology)
+- `graph.ttl` (populated knowledge graph)
+
+3) Run queries:
+
+```
+python run_queries.py
+```
+
+4) Validate SHACL constraints:
+
+```
+python validate_ontology.py
+```
+
+5) Launch CLI app:
+
+```
+python app.py
+```
+
+Packaging for submission: zip the following subset:
+- `ontology/git_ontology.owl`
+- `constraints.ttl`
+- `build_ontology.py`, `load_data.py`, `run_queries.py`, `validate_ontology.py`, `app.py`
+- `requirements.txt`
+- `README.md`
+
+

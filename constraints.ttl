@@ -1,0 +1,52 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix git: <http://example.org/git-ontology#> .
+
+# Repository must have at least one branch and at least one file
+git:RepositoryShape a sh:NodeShape ;
+  sh:targetClass git:Repository ;
+  sh:property [
+    sh:path git:hasBranch ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path git:hasFile ;
+    sh:minCount 1 ;
+  ] .
+
+# Branch must have a name and exactly one initial commit
+git:BranchShape a sh:NodeShape ;
+  sh:targetClass git:Branch ;
+  sh:property [ sh:path git:branchName ; sh:datatype xsd:string ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path git:hasInitialCommit ; sh:minCount 1 ; sh:maxCount 1 ; sh:class git:Commit ] .
+
+# Commit must have user, timestamp, branch, and message
+git:CommitShape a sh:NodeShape ;
+  sh:targetClass git:Commit ;
+  sh:property [ sh:path git:authoredBy ; sh:minCount 1 ; sh:maxCount 1 ; sh:class git:User ] ;
+  sh:property [ sh:path git:onBranch ; sh:minCount 1 ; sh:maxCount 1 ; sh:class git:Branch ] ;
+  sh:property [ sh:path git:timestamp ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] ;
+  sh:property [ sh:path git:commitMessage ; sh:minCount 1 ; sh:datatype xsd:string ] .
+
+# Initial commits must have no parents
+git:InitialCommitShape a sh:NodeShape ;
+  sh:targetClass git:InitialCommit ;
+  sh:property [ sh:path git:hasParent ; sh:maxCount 0 ] .
+
+# Non-initial commits must have at least one parent
+git:NonInitialCommitShape a sh:NodeShape ;
+  sh:target [ a sh:SPARQLTarget ;
+    sh:select """
+    PREFIX git: <http://example.org/git-ontology#>
+    SELECT ?this WHERE {
+      ?this a git:Commit .
+      FILTER NOT EXISTS { ?this a git:InitialCommit }
+    }
+    """
+  ] ;
+  sh:property [ sh:path git:hasParent ; sh:minCount 1 ; sh:class git:Commit ] .
+
+# Merge commits are commits with two or more parents (informational)
+git:MergeCommitShape a sh:NodeShape ;
+  sh:targetClass git:MergeCommit ;
+  sh:property [ sh:path git:hasParent ; sh:minCount 2 ] .
