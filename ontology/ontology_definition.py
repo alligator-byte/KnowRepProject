@@ -28,12 +28,16 @@ with onto:
 
     #note for SINA: "pass" here is used so in a way a class is made and it's insides are valid to python rules
 
-    # make our PROPERTIES
-    class hasBranch(Repository >> Branch): pass # repo has a branch and so on...
+    # make our PROPERTIES in format (domain and range)
+    class hasBranch(Repository >> Branch): pass
     class hasCommit(Branch >> Commit): pass
+    class isCommitOf(Commit >> Branch): pass   # inverse to latter
     class authoredBy(Commit >> User): pass
+    class authoredCommit(User >> Commit): pass  # inverse to latter
     class modifiesFile(Commit >> File): pass
+    class modifiedByCommit(File >> Commit): pass
     class hasParent(Commit >> Commit): pass
+    class hasFile(Repository >> File): pass
 
     # make our DATATYPE PROPERTIES
     # functional properties need 3rd param for it's literal type --> ie) it's name
