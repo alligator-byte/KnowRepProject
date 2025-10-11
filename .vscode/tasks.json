@@ -8,6 +8,17 @@
 			"args": [],
 			"problemMatcher": [],
 			"group": "build"
+		},
+		{
+			"label": "Run Flask app",
+			"type": "shell",
+			"command": "C:/Users/sina/Desktop/KnowRepProject/.venv/Scripts/python.exe app/main.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "build"
 		}
 	]
 }

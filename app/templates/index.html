@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Repositories</h2>
+<table>
+  <thead><tr><th>Name</th><th>URI</th><th>Open</th></tr></thead>
+  <tbody>
+  {% for repo, name in repos %}
+    <tr>
+      <td>{{ name }}</td>
+      <td class="muted">{{ repo }}</td>
+      <td><a href="/repo/{{ repo|to_url }}">Open</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Repository: {{ name }}</h2>
+<p class="muted">{{ repo_uri }}</p>
+<h3>Branches</h3>
+<table>
+  <thead><tr><th>Branch</th><th>URI</th><th>Open</th></tr></thead>
+  <tbody>
+  {% for bn, b in branches %}
+    <tr>
+      <td>{{ bn }}</td>
+      <td class="muted">{{ b }}</td>
+      <td><a href="/branch/{{ b|to_url }}">Open</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

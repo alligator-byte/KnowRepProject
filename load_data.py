@@ -15,7 +15,8 @@ from owlready2 import get_ontology, default_world
 ONTO_IRI = "http://example.org/git-ontology#"
 ROOT = Path(__file__).parent
 OWL_PATH = ROOT / "ontology" / "git_ontology.owl"
-GRAPH_TTL = ROOT / "graph.ttl"
+DATA_DIR = ROOT / "data"
+GRAPH_TTL = DATA_DIR / "graph.ttl"
 
 
 def ensure_ontology():
@@ -32,7 +33,11 @@ def random_date(start: datetime, end: datetime) -> datetime:
 
 def populate():
     ensure_ontology()
-    onto = get_ontology(ONTO_IRI).load()
+    # Prefer loading from the saved file path to ensure consistency
+    if OWL_PATH.exists():
+        onto = get_ontology(str(OWL_PATH)).load()
+    else:
+        onto = get_ontology(ONTO_IRI).load()
 
     Repository = onto.Repository
     User = onto.User
@@ -62,7 +67,8 @@ def populate():
     # 20 repositories
     for r in range(1, 21):
         repo = Repository(f"repo_{r}")
-        repo.repoName = [f"Repo-{r}"]
+        # Functional data property: assign a single value
+        repo.repoName = f"Repo-{r}"
 
         # Files in repo
         files = [File(f"repo_{r}_file_{i}") for i in range(1, random.randint(5, 12))]
@@ -75,7 +81,8 @@ def populate():
         for b in range(branch_count):
             name = "main" if b == 0 else f"feature-{b}"
             br = Branch(f"repo_{r}_{name}")
-            br.branchName = [name]
+            # Functional data property
+            br.branchName = name
             repo.hasBranch.append(br)
             branches.append(br)
 
@@ -88,27 +95,30 @@ def populate():
         # Initial commit on each branch
         for br in branches:
             c0 = Commit(f"{br.name}_init")
-            br.hasInitialCommit = [c0]
+            # Functional object properties: assign single value
+            br.hasInitialCommit = c0
             br.hasCommit.append(c0)
-            c0.onBranch = [br]
-            c0.authoredBy = [random.choice(users)]
+            c0.onBranch = br
+            c0.authoredBy = random.choice(users)
             t0 = random_date(start, start + timedelta(days=7))
-            c0.timestamp = [t0]
-            c0.commitDate = [date(t0.year, t0.month, t0.day)]
+            # Functional data properties
+            c0.timestamp = t0
+            c0.commitDate = date(t0.year, t0.month, t0.day)
+            # Non-functional data property can be a list or append
             c0.commitMessage = ["Initial commit"]
             # initial commit has no parents
 
         # Add additional commits and some merges
         for br in branches:
-            prev = br.hasInitialCommit[0]
+            prev = br.hasInitialCommit
             # 5-25 commits per branch
             for i in range(random.randint(5, 25)):
                 c = Commit(f"{br.name}_c_{i}")
-                c.onBranch = [br]
-                c.authoredBy = [random.choice(users)]
+                c.onBranch = br
+                c.authoredBy = random.choice(users)
                 t = random_date(start, end)
-                c.timestamp = [t]
-                c.commitDate = [date(t.year, t.month, t.day)]
+                c.timestamp = t
+                c.commitDate = date(t.year, t.month, t.day)
                 # some messages include keywords
                 msg_base = random.choice([
                     "Refactor module",
@@ -134,19 +144,46 @@ def populate():
                 main_last = main.hasCommit[-1]
                 feat_last = br.hasCommit[-1]
                 m = Commit(f"merge_{br.name}_into_main_{r}")
-                m.onBranch = [main]
-                m.authoredBy = [random.choice(users)]
+                m.onBranch = main
+                m.authoredBy = random.choice(users)
                 t = random_date(datetime(2024, 1, 1), end)
-                m.timestamp = [t]
-                m.commitDate = [date(t.year, t.month, t.day)]
-                m.commitMessage = [f"Merge {br.branchName[0]} into main"]
+                m.timestamp = t
+                m.commitDate = date(t.year, t.month, t.day)
+                m.commitMessage = [f"Merge {br.branchName} into main"]
                 m.hasParent.extend([main_last, feat_last])
                 for _ in range(random.randint(0, 3)):
                     m.updatesFile.append(random.choice(files))
                 main.hasCommit.append(m)
                 br.mergedInto = [main]
 
+        # Ensure at least one 'security' commit on main and one on a merged feature branch per repo
+        # 1) On main
+        sc_main = Commit(f"security_on_main_{r}")
+        sc_main.onBranch = main
+        sc_main.authoredBy = random.choice(users)
+        tsm = random_date(datetime(2024, 6, 1), end)
+        sc_main.timestamp = tsm
+        sc_main.commitDate = date(tsm.year, tsm.month, tsm.day)
+        sc_main.commitMessage = ["Security fix: patch dependency"]
+        sc_main.hasParent.append(main.hasCommit[-1])
+        main.hasCommit.append(sc_main)
+
+        # 2) On a feature branch that is merged into main if any
+        merged_feats = [b for b in branches[1:] if getattr(b, 'mergedInto', [])]
+        target_feat = merged_feats[0] if merged_feats else (branches[1] if len(branches) > 1 else None)
+        if target_feat is not None:
+            sc_feat = Commit(f"vuln_on_feat_{r}")
+            sc_feat.onBranch = target_feat
+            sc_feat.authoredBy = random.choice(users)
+            tsf = random_date(datetime(2024, 3, 1), end)
+            sc_feat.timestamp = tsf
+            sc_feat.commitDate = date(tsf.year, tsf.month, tsf.day)
+            sc_feat.commitMessage = ["Resolve vulnerability: sanitize input"]
+            sc_feat.hasParent.append(target_feat.hasCommit[-1])
+            target_feat.hasCommit.append(sc_feat)
+
     # Save the populated graph as Turtle
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     default_world.as_rdflib_graph().serialize(destination=str(GRAPH_TTL), format="turtle")
     print(f"Graph saved to {GRAPH_TTL}")
 

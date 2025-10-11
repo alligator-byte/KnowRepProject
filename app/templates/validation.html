@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Validation</h2>
+<p>Status: {% if status == 0 %}<span class="ok">Conforms</span>{% else %}<span class="fail">Failed</span>{% endif %}</p>
+<pre style="white-space: pre-wrap; background: #f7f7f7; padding: 1rem;">{{ report }}</pre>
+{% endblock %}

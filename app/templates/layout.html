@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Git Knowledge Graph</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; }
+    header { display: flex; gap: 1rem; align-items: baseline; }
+    nav a { margin-right: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    .ok { color: green; }
+    .fail { color: #b30000; }
+    .muted { color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin: 0">Git Knowledge Graph</h1>
+    <nav>
+      <a href="/">Repositories</a>
+      <a href="/merges">Merges</a>
+      <a href="/validate">Validate</a>
+      <form method="get" action="/search" style="display:inline">
+        <input type="text" name="q" placeholder="Search commits" />
+        <button type="submit">Search</button>
+      </form>
+    </nav>
+  </header>
+  <hr />
+  {% block content %}{% endblock %}
+</body>
+</html>

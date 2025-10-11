@@ -16,7 +16,6 @@ from owlready2 import (
     DataProperty,
     FunctionalProperty,
     default_world,
-    XSD,
 )
 
 
@@ -97,12 +96,14 @@ def build():
 
         class timestamp(DataProperty, FunctionalProperty):
             domain = [Commit]
-            range = [XSD.dateTime]
+            # Use Python datetime as range
+            range = [datetime]
 
         # Convenience: store date-only for simpler SPARQL over concurrent contributions
         class commitDate(DataProperty, FunctionalProperty):
             domain = [Commit]
-            range = [XSD.date]
+            # Use Python date as range
+            range = [date]
 
         # Derived classes (inferred)
         class InitialCommit(Commit):

@@ -6,7 +6,7 @@ from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS, XSD
 
 ROOT = Path(__file__).parent
-GRAPH_TTL = ROOT / "graph.ttl"
+GRAPH_TTL = ROOT / "data" / "graph.ttl"
 GIT = Namespace("http://example.org/git-ontology#")
 
 
@@ -70,25 +70,53 @@ def q_merge_commits(g: Graph):
 
 
 def q_security_commits_on_branch(g: Graph, branch_name: str):
-    # Find commits with message containing keywords that are on or merged into the given branch.
-    # Simplification: We check commits whose onBranch is the named branch, OR the branch was mergedInto the named branch.
-    q = """
+    # Optimized approach:
+    # 1) Preselect all branches with the requested name (usually 'main')
+    # 2) Query commits on those branches
+    # 3) Query commits on branches mergedInto those branches
+    # This avoids a large UNION with FILTERs over the whole graph.
+
+    # Step 1: get branch URIs matching the name (case-insensitive)
+    sel_branches = """
     PREFIX git: <http://example.org/git-ontology#>
-    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-    SELECT DISTINCT ?commit ?msg ?branch
-    WHERE {
-      ?branch a git:Branch ; git:branchName ?bn .
-      FILTER(LCASE(STR(?bn)) = LCASE(STR(?target)))
-      {
-        ?commit a git:Commit ; git:onBranch ?branch ; git:commitMessage ?msg .
-      } UNION {
-        ?b2 a git:Branch ; git:mergedInto ?branch .
-        ?commit a git:Commit ; git:onBranch ?b2 ; git:commitMessage ?msg .
-      }
-      FILTER(CONTAINS(LCASE(STR(?msg)), "security") || CONTAINS(LCASE(STR(?msg)), "vulnerability"))
-    }
+    SELECT ?b WHERE { ?b a git:Branch ; git:branchName ?bn . FILTER(LCASE(STR(?bn)) = LCASE(STR(?target))) }
     """
-    return list(g.query(q, initBindings={"target": Literal(branch_name, datatype=XSD.string)}))
+    mains = [row[0] for row in g.query(sel_branches, initBindings={"target": Literal(branch_name, datatype=XSD.string)})]
+    if not mains:
+        return []
+
+    # Build VALUES list
+    values = " ".join(f"<{str(b)}>" for b in mains)
+
+    q_on = f"""
+    PREFIX git: <http://example.org/git-ontology#>
+    SELECT DISTINCT ?commit ?msg ?branch WHERE {{
+      VALUES ?branch {{ {values} }}
+      ?commit a git:Commit ; git:onBranch ?branch ; git:commitMessage ?msg .
+      FILTER(CONTAINS(LCASE(STR(?msg)), "security") || CONTAINS(LCASE(STR(?msg)), "vulnerability"))
+    }}
+    """
+
+    q_merged = f"""
+    PREFIX git: <http://example.org/git-ontology#>
+    SELECT DISTINCT ?commit ?msg ?branch WHERE {{
+      VALUES ?target {{ {values} }}
+      ?branch a git:Branch ; git:mergedInto ?target .
+      ?commit a git:Commit ; git:onBranch ?branch ; git:commitMessage ?msg .
+      FILTER(CONTAINS(LCASE(STR(?msg)), "security") || CONTAINS(LCASE(STR(?msg)), "vulnerability"))
+    }}
+    """
+
+    res = list(g.query(q_on)) + list(g.query(q_merged))
+    # Deduplicate rows
+    seen = set()
+    out = []
+    for row in res:
+        key = tuple(row)
+        if key not in seen:
+            seen.add(key)
+            out.append(row)
+    return out
 
 
 if __name__ == "__main__":

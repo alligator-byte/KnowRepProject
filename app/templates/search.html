@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Search commits</h2>
+<form method="get" action="/search">
+  <input type="text" name="q" value="{{ term }}" placeholder="Search text" />
+  <button type="submit">Search</button>
+</form>
+{% if term %}
+<h3>Results for "{{ term }}"</h3>
+<table>
+  <thead><tr><th>Branch</th><th>Message</th><th>Commit</th></tr></thead>
+  <tbody>
+  {% for c, msg, bn in rows %}
+    <tr>
+      <td>{{ bn }}</td>
+      <td>{{ msg }}</td>
+      <td class="muted">{{ c }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}

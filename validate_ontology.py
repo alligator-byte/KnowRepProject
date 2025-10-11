@@ -26,7 +26,7 @@ def validate_graph(data_path: Path, shacl_path: Path) -> None:
 
 if __name__ == "__main__":
     root = Path(__file__).parent
-    data = root / "graph.ttl"
+    data = root / "data" / "graph.ttl"
     shacl = root / "constraints.ttl"
     if not data.exists():
         raise SystemExit(f"Data graph not found: {data}. Run load_data.py first.")

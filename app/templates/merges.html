@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Merge commits</h2>
+<ul>
+  {% for c, in merges %}
+    <li class="muted">{{ c }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

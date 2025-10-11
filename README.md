@@ -93,7 +93,7 @@ How to interact with what we've made
 pip install -r requirements.txt
 ```
 
-2) Build ontology and populate synthetic data (20 repos):
+2) Build ontology and populate synthetic data (20+ repos):
 
 ```
 python build_ontology.py ; python load_data.py
@@ -101,7 +101,7 @@ python build_ontology.py ; python load_data.py
 
 This produces:
 - `ontology/git_ontology.owl` (ontology)
-- `graph.ttl` (populated knowledge graph)
+- `data/graph.ttl` (populated knowledge graph)
 
 3) Run queries:
 
@@ -120,6 +120,13 @@ python validate_ontology.py
 ```
 python app.py
 ```
+
+6) Optional web UI (Flask):
+
+```
+python app\main.py
+```
+Open http://127.0.0.1:5000
 
 Packaging for submission: zip the following subset:
 - `ontology/git_ontology.owl`
