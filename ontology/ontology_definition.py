@@ -44,6 +44,13 @@ with onto:
     class hasParent(Commit >> Commit): pass
     class hasFile(Repository >> File): pass
 
+    #make two way connections for properties - define the inverses to OWL
+    hasCommit.inverse_property = isCommitOf
+    authoredBy.inverse_property = authoredCommit
+    modifiesFile.inverse_property = modifiedByCommit
+
+
+
     # make our DATATYPE PROPERTIES
     # functional properties need 3rd param for it's literal type --> ie) it's name
     class branchName(Branch >> str, DataProperty, FunctionalProperty): pass 
@@ -60,18 +67,20 @@ with onto:
 
 
     #Repo must have at least 1 Branch --> MAIN is always created with repo!
+    #also needs at least one file
     Repository.is_a.append(hasBranch.min(1, Branch))
+    Repository.is_a.append(hasFile.min(1, File))
 
     # A Branch must have a name & an initial commit
     Branch.is_a.append(branchName.some(str))
     Branch.is_a.append(hasCommit.min(1, Commit))
 
-    # Now model initial and merge commits:
-    # InitialCommit has no parents
+    #Constraints on Spec for commit parents for seperate types
+    # Initial - 0 parents
     InitialCommit.is_a.append(hasParent.max(0, Commit))
-    # RegularCommit has at least one parent
+    # Regular - least 1 parent
     RegularCommit.is_a.append(hasParent.min(1, Commit))
-    # MergeCommit has at least two parents
+    # Merged - least 2 parents
     MergeCommit.is_a.append(hasParent.min(2, Commit))
 
 #save what we've created here to a file
