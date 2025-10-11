@@ -22,9 +22,14 @@ with onto:
     # make the CLASSES!
     class Repository(Thing): pass #repo is a thing and etc
     class Branch(Thing): pass
-    class Commit(Thing): pass
     class User(Thing): pass
     class File(Thing): pass
+    class Commit(Thing): pass
+    #commit types
+    class InitialCommit(Commit):pass
+    class RegularCommit(Commit):pass
+    class MergeCommit(Commit):pass
+
 
     #note for SINA: "pass" here is used so in a way a class is made and it's insides are valid to python rules
 
@@ -60,6 +65,14 @@ with onto:
     # A Branch must have a name & an initial commit
     Branch.is_a.append(branchName.some(str))
     Branch.is_a.append(hasCommit.min(1, Commit))
+
+    # Now model initial and merge commits:
+    # InitialCommit has no parents
+    InitialCommit.is_a.append(hasParent.max(0, Commit))
+    # RegularCommit has at least one parent
+    RegularCommit.is_a.append(hasParent.min(1, Commit))
+    # MergeCommit has at least two parents
+    MergeCommit.is_a.append(hasParent.min(2, Commit))
 
 #save what we've created here to a file
 onto.save(file="ontology/git_ontology.owl", format="rdfxml")
