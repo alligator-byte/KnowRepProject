@@ -84,6 +84,6 @@ with onto:
     MergeCommit.is_a.append(hasParent.min(2, Commit))
 
 #save what we've created here to a file
-onto.save(file="ontology/git_ontology.owl", format="rdfxml")
+onto.save(file="git_ontology.owl", format="rdfxml")
 
 print("Ontology saved as ontology/git_ontology.owl")
