@@ -4,12 +4,27 @@
 import requests, json, os
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Add token to environment
-HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+# Add required/recommended headers for GitHub API
+HEADERS = {
+    **({"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}),
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    "User-Agent": "KnowRepProject/1.0",
+}
 
-#modify this to be a set of related repositories.
+# Fast-mode / debug controls via environment variables
+# MAX_COMMITS_PER_BRANCH: 0 means unlimited (default). Set to e.g. 200 for fast runs.
+MAX_COMMITS_PER_BRANCH = int(os.getenv("MAX_COMMITS_PER_BRANCH", "0"))
+# If VERBOSE is set (1/true), print per-branch/commit progress.
+VERBOSE = str(os.getenv("VERBOSE", "0")).lower() in ("1", "true", "yes")
+# If FETCH_DEFAULT_ONLY is true, only fetch the default branch for each repo
+FETCH_DEFAULT_ONLY = str(os.getenv("FETCH_DEFAULT_ONLY", "0")).lower() in ("1", "true", "yes")
+
+#modify this to be a set of related repositories. after cmdr2 the rest are other repos we get info from
 REPOS = [
     "codersforcauses/guild-volunteering",
     "cmdr2/github-actions-wizard",
+   
 ]
 
 OUTPUT_FILES = {
@@ -65,6 +80,15 @@ def fetch_all_commits(full_name, branch):
         if not commits:
             break
         all_commits.extend(commits)
+        if VERBOSE:
+            print(f"Fetched page {page} ({len(commits)} commits) for {full_name}@{branch} (total so far: {len(all_commits)})")
+        # If a max is set, stop early when reached
+        if MAX_COMMITS_PER_BRANCH and len(all_commits) >= MAX_COMMITS_PER_BRANCH:
+            # trim to exact max and stop
+            all_commits = all_commits[:MAX_COMMITS_PER_BRANCH]
+            if VERBOSE:
+                print(f"Reached MAX_COMMITS_PER_BRANCH={MAX_COMMITS_PER_BRANCH} for {full_name}@{branch}")
+            break
         page += 1
     return all_commits
 
@@ -75,9 +99,20 @@ def main():
     repos_out, branches_out, commits_out, users_out, files_out = [], [], [], [], []
     seen_users = set()
 
+    # Quick rate limit check
+    rl, _ = fetch_json("https://api.github.com/rate_limit")
+    if rl and isinstance(rl, dict):
+        remaining = rl.get("rate", {}).get("remaining")
+        limit = rl.get("rate", {}).get("limit")
+        print(f"Rate limit: {remaining}/{limit} remaining")
+    else:
+        print("Warning: Could not retrieve rate limit info; requests may be failing.")
+
     for repo_name in REPOS:
+        print(f"Processing {repo_name}")
         repo = fetch_repo(repo_name)
         if not repo:
+            print(f"Skipping {repo_name}: failed to fetch repo metadata")
             continue
 
         repo_id = repo["id"]
@@ -88,8 +123,6 @@ def main():
         # if commit_count and commit_count > 500:
         #     print(f"Skipping {repo_name}: {commit_count} commits")
         #     continue
-
-        print(f"Processing {repo_name}")
 
         repos_out.append({
             "repo_id": repo_id,
