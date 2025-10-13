@@ -5,6 +5,8 @@ OWL2Ready will define:
 - Properties: hasBranch, hasCommit, authoredBy, modifiesFile, hasParent, etc.
 - Datatype properties: timestamp, commitMessage, branchName
 """
+import os
+import datetime
 from owlready2 import *
 
 # Create a new ontology
@@ -56,6 +58,10 @@ with onto:
     class branchName(Branch >> str, DataProperty, FunctionalProperty): pass 
     class timestamp(Commit >> datetime.datetime, DataProperty, FunctionalProperty): pass
     class commitMessage(Commit >> str, DataProperty, FunctionalProperty): pass
+    # additional data props used by loader and queries
+    class isDefault(Branch >> bool, DataProperty, FunctionalProperty): pass
+    class parentCount(Commit >> int, DataProperty, FunctionalProperty): pass
+    class repoName(Repository >> str, DataProperty, FunctionalProperty): pass
 
 
     # making our CONSTRAINTS
@@ -84,6 +90,9 @@ with onto:
     MergeCommit.is_a.append(hasParent.min(2, Commit))
 
 #save what we've created here to a file
-onto.save(file="git_ontology.owl", format="rdfxml")
+onto.save(file=os.path.join(os.path.dirname(__file__), "git_ontology.owl"), format="rdfxml")
 
 print("Ontology saved as ontology/git_ontology.owl")
+
+
+

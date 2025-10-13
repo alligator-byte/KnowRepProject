@@ -83,3 +83,47 @@ How to interact with what we've made
   * Individual report (PDF)
 * ⚠️ Do **not** include full Git repositories — only metadata necessary to demonstrate functionality
 
+
+---
+
+## How to run (PowerShell on Windows)
+
+1) Install dependencies
+
+```
+python -m pip install -r requirements.txt
+```
+
+2) Fetch GitHub metadata (set a token to avoid rate limits)
+
+```
+$env:GITHUB_TOKEN="<your token>"; python .\ontology\git_data.py
+```
+## tokin is: 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
+
+3) Build the OWL knowledge graph with OWLReady2
+
+```
+python .\knowledge_graph_loader.py
+```
+
+4) Run SPARQL queries with RDFLib
+
+```
+# All merge commits
+python .\app\sparql_queries.py merges
+
+# Repos with >5 unmerged branches
+python .\app\sparql_queries.py unmerged
+
+# Users who contributed to >=3 repos
+python .\app\sparql_queries.py concurrent
+
+# Security/vulnerability messages on a branch
+python .\app\sparql_queries.py security -b main
+```
+
+Notes:
+- The ontology is defined in `ontology/ontology_definition.py` and saved to `ontology/git_ontology.owl`.
+- The populated graph is saved to `git_knowledge_graph.owl` in the project root.
+
