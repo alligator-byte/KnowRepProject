@@ -22,7 +22,7 @@ FETCH_DEFAULT_ONLY = str(os.getenv("FETCH_DEFAULT_ONLY", "0")).lower() in ("1", 
 
 #modify this to be a set of related repositories. after cmdr2 the rest are other repos we get info from
 REPOS = [
-    "alligator-byte/Group-7-Embedded-Systems-2025"
+    "Donaks1/gsa"
 ]
 
 later = [    "ShahDhruvik/dietRecommendationFrontend",
@@ -49,6 +49,7 @@ later = [    "ShahDhruvik/dietRecommendationFrontend",
 complete = ["KOBE24MAN/aaa",
             "codersforcauses/guild-volunteering",
             "cmdr2/github-actions-wizard",
+            "alligator-byte/Group-7-Embedded-Systems-2025",
             ]
 
 OUTPUT_FILES = {
