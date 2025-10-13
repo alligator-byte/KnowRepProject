@@ -14,7 +14,7 @@ HEADERS = {
 
 # Fast-mode / debug controls via environment variables
 # MAX_COMMITS_PER_BRANCH: 0 means unlimited (default). Set to e.g. 200 for fast runs.
-MAX_COMMITS_PER_BRANCH = int(os.getenv("MAX_COMMITS_PER_BRANCH", "0"))
+MAX_COMMITS_PER_BRANCH = int(os.getenv("MAX_COMMITS_PER_BRANCH", "200"))
 # If VERBOSE is set (1/true), print per-branch/commit progress.
 VERBOSE = str(os.getenv("VERBOSE", "0")).lower() in ("1", "true", "yes")
 # If FETCH_DEFAULT_ONLY is true, only fetch the default branch for each repo
@@ -22,10 +22,30 @@ FETCH_DEFAULT_ONLY = str(os.getenv("FETCH_DEFAULT_ONLY", "0")).lower() in ("1", 
 
 #modify this to be a set of related repositories. after cmdr2 the rest are other repos we get info from
 REPOS = [
+    "KOBE24MAN/aaa",
+]
+
+later = [    "ShahDhruvik/dietRecommendationFrontend",
+    "ShahDhruvik/TodoApp",
+    "ShahDhruvik/TypeScriptBackend",
+    "ShahDhruvik/nextjs13",
+    "ShahDhruvik/my-portfolio-site",
+    "ShahDhruvik/my-portfolio-backend",
+    "Donaks1/gsa",
+    "Donaks1/gsauwa",
+    "Donaks1/Hangman",
+    "Donaks1/testagit",
+    "Donaks1/Donaks1.github.io",
+    "ahamedfahim246/lab_5",
+
     "codersforcauses/guild-volunteering",
     "cmdr2/github-actions-wizard",
-   
-]
+    "emilyand-i/AgileWebGroup82",
+    "alligator-byte/Group-7-Embedded-Systems-2025",
+    "Bortalis/Networks",
+    "Bortalis/3403-Agile",
+    "tri-tim-m-nguyen/study-plan-application",
+    "AndrewMekhail/Project_132",]
 
 OUTPUT_FILES = {
     "repos": "./data/repos.json",

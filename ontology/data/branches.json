@@ -1,0 +1,14 @@
+[
+  {
+    "repo_id": 1055650747,
+    "branch_name": "KOBE24MAN-patch-1",
+    "commit_sha": "53787de28d52808cdaaff2d2357241c9b30bbf33",
+    "is_default": false
+  },
+  {
+    "repo_id": 1055650747,
+    "branch_name": "main",
+    "commit_sha": "53787de28d52808cdaaff2d2357241c9b30bbf33",
+    "is_default": true
+  }
+]
