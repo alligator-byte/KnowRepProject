@@ -8964,5 +8964,801 @@
     "commit_parent_count": 0,
     "commit_parents": [],
     "is_initial": true
+  },
+
+    {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "aa61da46bab0ea6b1307cd59620cc9015e6c029e",
+    "commit_message": "Merge pull request #3 from ahamedfahim246/try\n\n2nd try",
+    "commit_date": "2025-04-03T04:24:40Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "6e0c073418dca3fbf3befa08676b7c4d87b5de69",
+      "da336075bd174f2e46c7b5061561cb547349f796"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "da336075bd174f2e46c7b5061561cb547349f796",
+    "commit_message": "edited the text file as well",
+    "commit_date": "2025-04-03T04:16:10Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e92dc19df0f6b406f765ea68c7782bdacbe21702"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "e92dc19df0f6b406f765ea68c7782bdacbe21702",
+    "commit_message": "2nd try",
+    "commit_date": "2025-04-03T04:12:19Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6e0c073418dca3fbf3befa08676b7c4d87b5de69"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "6e0c073418dca3fbf3befa08676b7c4d87b5de69",
+    "commit_message": "Merge pull request #2 from ahamedfahim246/personal_branch\n\nPersonal branch",
+    "commit_date": "2025-04-03T03:12:50Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c45eecfd4039ec46a274c24b5068e5a0d975628d",
+      "a835c406b8a03c611c5b39e2574d3b45757d7a65"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "a835c406b8a03c611c5b39e2574d3b45757d7a65",
+    "commit_message": "my new",
+    "commit_date": "2025-04-03T03:04:38Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "9613ff1752828c0c5c612ab901d64b04a4cea1c9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "9613ff1752828c0c5c612ab901d64b04a4cea1c9",
+    "commit_message": "added few lines on the hello.js",
+    "commit_date": "2025-04-03T02:56:40Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c45eecfd4039ec46a274c24b5068e5a0d975628d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "c45eecfd4039ec46a274c24b5068e5a0d975628d",
+    "commit_message": "think this is how we would have to merge files where i would have to first remove the file in main then would have to commit and then chage the file",
+    "commit_date": "2025-04-03T02:00:56Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c4e8a37dd6c6c2e610536c13bc317742a26d5f48",
+      "7807d9f614d54b8d5e29a9a69d358c044d3cfc1f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "7807d9f614d54b8d5e29a9a69d358c044d3cfc1f",
+    "commit_message": "merging bracnhes",
+    "commit_date": "2025-04-03T01:47:59Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "bc1a7aebc7c9d669e0f5445f989c4ae6713e2112"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "c4e8a37dd6c6c2e610536c13bc317742a26d5f48",
+    "commit_message": "removed",
+    "commit_date": "2025-04-03T00:55:37Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b29fb442ea9001af1d28c4f7af46db7e628f4d3f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "b29fb442ea9001af1d28c4f7af46db7e628f4d3f",
+    "commit_message": "removed",
+    "commit_date": "2025-04-01T12:56:45Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "441c4c3cb629c19c1c9f4715c59a5fd7a3ad15ef"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "441c4c3cb629c19c1c9f4715c59a5fd7a3ad15ef",
+    "commit_message": "removed",
+    "commit_date": "2025-04-01T12:55:23Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d9299c8522d05c4b3dddac9aed70d19b270130b6"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "d9299c8522d05c4b3dddac9aed70d19b270130b6",
+    "commit_message": "removed",
+    "commit_date": "2025-04-01T12:53:11Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "09377c33057aa48ff2b23d7ee4fac2dfcea097ca"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "09377c33057aa48ff2b23d7ee4fac2dfcea097ca",
+    "commit_message": "added a png of BT-7472 from TitanFall 2",
+    "commit_date": "2025-03-31T02:33:20Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "bc1a7aebc7c9d669e0f5445f989c4ae6713e2112"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "bc1a7aebc7c9d669e0f5445f989c4ae6713e2112",
+    "commit_message": "WORK PLEASE! PLEASE FOR THE LOVE OF GOD",
+    "commit_date": "2025-03-31T02:29:16Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2ea781f5cf6c8364d57b80654b65c437f4681b06"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "2ea781f5cf6c8364d57b80654b65c437f4681b06",
+    "commit_message": "added a txt of my own",
+    "commit_date": "2025-03-31T02:06:37Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ded648af15b30e433fb5563809f535e35949ccc1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "ded648af15b30e433fb5563809f535e35949ccc1",
+    "commit_message": "Updated file XYZ with new features",
+    "commit_date": "2025-03-31T01:58:40Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "87483ace79159045b8bb861239744ebf53a51a96"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "87483ace79159045b8bb861239744ebf53a51a96",
+    "commit_message": "ADDED",
+    "commit_date": "2025-03-31T01:49:31Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8886fdab75ac5e09493f1c8866b319da7f240a07"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "8886fdab75ac5e09493f1c8866b319da7f240a07",
+    "commit_message": "first commit",
+    "commit_date": "2025-03-31T01:47:15Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "18dad7780c7dc78a7fa1338777597b5242e990d5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "18dad7780c7dc78a7fa1338777597b5242e990d5",
+    "commit_message": "added new files",
+    "commit_date": "2025-03-31T01:44:42Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "325aaeab51185417b51c553e05d5452ac9d493b4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "325aaeab51185417b51c553e05d5452ac9d493b4",
+    "commit_message": "Added new files",
+    "commit_date": "2025-03-31T01:40:38Z",
+    "commit_author_login": "ahamedfahim246",
+    "commit_committer_login": "ahamedfahim246",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "639ff0b3072613bdb3f91d40b8bab17abced60ae"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "639ff0b3072613bdb3f91d40b8bab17abced60ae",
+    "commit_message": "Update README.md",
+    "commit_date": "2021-03-27T10:53:59Z",
+    "commit_author_login": "rzeldent",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8626bb0623ab3eafc8a9ad21c772f7a03b79a372"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "8626bb0623ab3eafc8a9ad21c772f7a03b79a372",
+    "commit_message": "Update README.md",
+    "commit_date": "2021-03-27T10:51:53Z",
+    "commit_author_login": "rzeldent",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e174540b460ea894511092c18d29f6cc4587f803"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "e174540b460ea894511092c18d29f6cc4587f803",
+    "commit_message": "Added image of game",
+    "commit_date": "2021-03-27T10:51:10Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e1544ed9c85b783ae20721fd22058ae80b8e9a6c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "e1544ed9c85b783ae20721fd22058ae80b8e9a6c",
+    "commit_message": "Update .gitignore",
+    "commit_date": "2021-03-25T21:20:14Z",
+    "commit_author_login": "rzeldent",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "dbebc470d00528a15cd631f88182d84b8867152f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "dbebc470d00528a15cd631f88182d84b8867152f",
+    "commit_message": "Delete extensions.json",
+    "commit_date": "2021-03-25T21:19:13Z",
+    "commit_author_login": "rzeldent",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "75bb383145874756ca488f14de0e1d71c72f6ffe"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "75bb383145874756ca488f14de0e1d71c72f6ffe",
+    "commit_message": "Working version.",
+    "commit_date": "2021-03-25T19:59:37Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "09fe957a0cfa7077eb78cbd81db21c12686c5a30"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "09fe957a0cfa7077eb78cbd81db21c12686c5a30",
+    "commit_message": "Initial version. Still needs work.",
+    "commit_date": "2021-03-23T20:51:40Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ed49bcfe2c0cddefc22effa60c05328ec3bcad5b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 957705259,
+    "branch_name": "main",
+    "commit_sha": "ed49bcfe2c0cddefc22effa60c05328ec3bcad5b",
+    "commit_message": "first commit",
+    "commit_date": "2021-03-23T20:47:08Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "757d4597961e733b50f73b7ac898d7d5629a8c53",
+    "commit_message": "Play Again Button Added",
+    "commit_date": "2025-01-15T15:11:14Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "676d120fca90b2392cf685ded354262e282d37e1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "676d120fca90b2392cf685ded354262e282d37e1",
+    "commit_message": "rudimentary win screen. sidplays correct word",
+    "commit_date": "2025-01-15T14:20:41Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "79a5a50329536c3671cd1b3d818d062a3a26aedc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "79a5a50329536c3671cd1b3d818d062a3a26aedc",
+    "commit_message": "undid changes to css file",
+    "commit_date": "2025-01-15T12:54:50Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e54e5aa69c2f87c8b11fe96919796c9f3a9ad12f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "e54e5aa69c2f87c8b11fe96919796c9f3a9ad12f",
+    "commit_message": "simplified css file. removed redundancies",
+    "commit_date": "2025-01-15T12:45:46Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6dfb60c87c80182465b24dd67c254861b7f5e69a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "6dfb60c87c80182465b24dd67c254861b7f5e69a",
+    "commit_message": "fixed tile spinning animation",
+    "commit_date": "2025-01-04T07:27:18Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "df5d2ca7039c1142b1685a238a63c65a06c87a8f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "df5d2ca7039c1142b1685a238a63c65a06c87a8f",
+    "commit_message": "Enter only possible when in position 5",
+    "commit_date": "2025-01-04T05:52:30Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "387992791cea8544aa6b72453cfd408d9f9262d7"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "387992791cea8544aa6b72453cfd408d9f9262d7",
+    "commit_message": "attempt to remove double tap zoon",
+    "commit_date": "2025-01-04T05:43:20Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "aa494e968f105eae7da2ddcda7377a5afaee691f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "aa494e968f105eae7da2ddcda7377a5afaee691f",
+    "commit_message": "spin animation on enter",
+    "commit_date": "2025-01-04T04:34:01Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "75db017035f25fcb0cd7790e9974490780735a7e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "75db017035f25fcb0cd7790e9974490780735a7e",
+    "commit_message": "Rudimentary Easy and Hard Mode",
+    "commit_date": "2025-01-02T13:20:53Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c151e08796c6f84802aedb455c3f7da3cae2b141"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "c151e08796c6f84802aedb455c3f7da3cae2b141",
+    "commit_message": "removed scaling in meta tag",
+    "commit_date": "2024-12-31T05:15:58Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "db77424a9d541928fa08c5f612c83e304d93d54d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "db77424a9d541928fa08c5f612c83e304d93d54d",
+    "commit_message": "test js to remove double tap zoom on mobile",
+    "commit_date": "2024-12-31T05:04:50Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "39ef1bebea3d5314e2d7bf3fd85f6d347c6582ea"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "39ef1bebea3d5314e2d7bf3fd85f6d347c6582ea",
+    "commit_message": "responsive keyboard",
+    "commit_date": "2024-12-31T04:53:20Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2d1430c9b7c2fbbdd14549370bf43dbecf8584b1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "2d1430c9b7c2fbbdd14549370bf43dbecf8584b1",
+    "commit_message": "Usable Keyboard Buttons",
+    "commit_date": "2024-12-31T04:17:58Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "317bfbcb93eb27636335bf23864a2616f08438d1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "317bfbcb93eb27636335bf23864a2616f08438d1",
+    "commit_message": "improved keyboard on mobile",
+    "commit_date": "2024-12-31T03:38:42Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1d84a504f097b8c3aebf641448ce57746a50f8e5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "1d84a504f097b8c3aebf641448ce57746a50f8e5",
+    "commit_message": "Altered kayboard layout",
+    "commit_date": "2024-12-31T03:27:00Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6d05681d8931cd1df58829d8efe80636f6a92d1a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "6d05681d8931cd1df58829d8efe80636f6a92d1a",
+    "commit_message": "Improved keyboard formatting",
+    "commit_date": "2024-12-28T04:21:27Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e77e55a96a0c4879ace4ac8c6776c561072e4f49"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "e77e55a96a0c4879ace4ac8c6776c561072e4f49",
+    "commit_message": "keyboard grid added",
+    "commit_date": "2024-12-27T14:01:34Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d5574999d246d1ce8ac8d8642eaef653ddc33422"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "d5574999d246d1ce8ac8d8642eaef653ddc33422",
+    "commit_message": "Dictionary word checker and improved mobile functionality",
+    "commit_date": "2024-12-26T16:01:19Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "07516a561314d2c1f00870f51237f603f2605e19"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "07516a561314d2c1f00870f51237f603f2605e19",
+    "commit_message": "Redesign including logo and button to reset page",
+    "commit_date": "2024-12-26T08:50:37Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c8309fcdf18bb1d42c327bcfbcebe579782dc606"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "c8309fcdf18bb1d42c327bcfbcebe579782dc606",
+    "commit_message": "centered board and fixed gap/padding",
+    "commit_date": "2024-12-26T04:34:24Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "9a37797e50f1f9d3cb5d7be3b697960b359ac770"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "9a37797e50f1f9d3cb5d7be3b697960b359ac770",
+    "commit_message": "orange and grey colour indication",
+    "commit_date": "2024-12-25T04:54:53Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "24042621d753fd65812277321aa4109eb97ba8db"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "24042621d753fd65812277321aa4109eb97ba8db",
+    "commit_message": "basic correct letter checking",
+    "commit_date": "2024-12-25T04:46:07Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e73f7eb7e28c47b7582366c69cf205e3b584f7af"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "e73f7eb7e28c47b7582366c69cf205e3b584f7af",
+    "commit_message": "Typing into box, backspace and maximum letters",
+    "commit_date": "2024-12-25T01:55:50Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2749275b53ebed06eea34cf3e3ae7a80a1fa5184"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "2749275b53ebed06eea34cf3e3ae7a80a1fa5184",
+    "commit_message": "Rename tester.html to index.html",
+    "commit_date": "2024-12-20T09:36:57Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "96e332d3f59988c5405b0fa07cea841e43d012e1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "96e332d3f59988c5405b0fa07cea841e43d012e1",
+    "commit_message": "Create tester.html",
+    "commit_date": "2024-12-20T09:35:23Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0b8bd073a3c4637395cc67ae9707ecbf6c7a6a36"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 906046183,
+    "branch_name": "main",
+    "commit_sha": "0b8bd073a3c4637395cc67ae9707ecbf6c7a6a36",
+    "commit_message": "Initial commit",
+    "commit_date": "2024-12-20T03:47:07Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 892947134,
+    "branch_name": "main",
+    "commit_sha": "ca256f72c1b82c8c89e6d27e2980913d6e13f8bf",
+    "commit_message": "readme file changed :)",
+    "commit_date": "2024-11-23T05:57:44Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "663c5eae6a9ed78b90859ed477a99e505a214b51"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 892947134,
+    "branch_name": "main",
+    "commit_sha": "663c5eae6a9ed78b90859ed477a99e505a214b51",
+    "commit_message": "second time",
+    "commit_date": "2024-11-23T05:54:01Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7f7f708facf2ee71fb3fc6355889f0a5cdf9739d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 892947134,
+    "branch_name": "main",
+    "commit_sha": "7f7f708facf2ee71fb3fc6355889f0a5cdf9739d",
+    "commit_message": "Initial commit",
+    "commit_date": "2024-11-23T05:46:10Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
   }
 ]

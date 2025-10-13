@@ -22,28 +22,21 @@ FETCH_DEFAULT_ONLY = str(os.getenv("FETCH_DEFAULT_ONLY", "0")).lower() in ("1", 
 
 #modify this to be a set of related repositories. after cmdr2 the rest are other repos we get info from
 REPOS = [
-    
-]
-
-later = [    "ShahDhruvik/dietRecommendationFrontend",
+    "ShahDhruvik/dietRecommendationFrontend",
     "ShahDhruvik/TodoApp",
     "ShahDhruvik/TypeScriptBackend",
     "ShahDhruvik/nextjs13",
     "ShahDhruvik/my-portfolio-site",
-    "ShahDhruvik/my-portfolio-backend",
-    "Donaks1/gsauwa",
-    "Donaks1/Hangman",
-    "Donaks1/testagit",
-    "Donaks1/Donaks1.github.io",
-    "ahamedfahim246/lab_5",
+    "ShahDhruvik/my-portfolio-backend"
+]
 
-    
+later = [    
+    "Donaks1/gsauwa",
+    "Donaks1/Donaks1.github.io",
     "emilyand-i/AgileWebGroup82",
-    "alligator-byte/Group-7-Embedded-Systems-2025",
     "Bortalis/Networks",
     
-    "tri-tim-m-nguyen/study-plan-application",
-    "AndrewMekhail/Project_132",]
+    "tri-tim-m-nguyen/study-plan-application"]
 
 complete = ["KOBE24MAN/aaa",
             "codersforcauses/guild-volunteering",
@@ -51,7 +44,11 @@ complete = ["KOBE24MAN/aaa",
             "alligator-byte/Group-7-Embedded-Systems-2025",
             "Donaks1/gsa",
             "Bortalis/3403-Agile",
+            "ahamedfahim246/lab_5",
+            "Donaks1/Hangman",
+            "Donaks1/testagit"
             ]
+count = 9
 
 OUTPUT_FILES = {
     "repos": "./data/repos.json",
