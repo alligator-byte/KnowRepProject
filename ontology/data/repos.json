@@ -1,11 +1,11 @@
 [
   {
-    "repo_id": 1055650747,
-    "repo_name": "KOBE24MAN/aaa",
-    "repo_description": "aaaa",
-    "repo_language": null,
-    "repo_stars": 0,
+    "repo_id": 1058341453,
+    "repo_name": "alligator-byte/Group-7-Embedded-Systems-2025",
+    "repo_description": "Code for Sumo Robot's behaviour, sensors and movement",
+    "repo_language": "C++",
+    "repo_stars": 1,
     "repo_forks": 0,
-    "repo_url": "https://github.com/KOBE24MAN/aaa"
+    "repo_url": "https://github.com/alligator-byte/Group-7-Embedded-Systems-2025"
   }
 ]
