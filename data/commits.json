@@ -10084,5 +10084,5260 @@
     "commit_parent_count": 0,
     "commit_parents": [],
     "is_initial": true
+  },
+
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "42f8c77434497a7ffab52e41d2ec7dd8fec31c63",
+    "commit_message": "sep 1",
+    "commit_date": "2025-09-01T14:06:54Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0bfb705932ca210b2cf57a0654838e89a437e404"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "0bfb705932ca210b2cf57a0654838e89a437e404",
+    "commit_message": "12 july",
+    "commit_date": "2025-07-12T10:30:59Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6e1fb4fa9abcfd2d886e7d2f51ae5a5258d93e96"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "6e1fb4fa9abcfd2d886e7d2f51ae5a5258d93e96",
+    "commit_message": "Updated for recent insta posts and eurovision",
+    "commit_date": "2025-04-17T06:25:20Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6a4213b8dcf4fa2fabd549b65f59b45e98e605b2"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "6a4213b8dcf4fa2fabd549b65f59b45e98e605b2",
+    "commit_message": "fresher reps changes",
+    "commit_date": "2025-04-08T03:12:51Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a41edb956ecc8ce4ebbe206e1cfa37a170fa1b87"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "a41edb956ecc8ce4ebbe206e1cfa37a170fa1b87",
+    "commit_message": "white icon attempt",
+    "commit_date": "2025-03-14T04:58:33Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f027d8a61067bd5eeca88772377686ffc1a9d286"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "f027d8a61067bd5eeca88772377686ffc1a9d286",
+    "commit_message": "Improved seo",
+    "commit_date": "2025-03-07T03:55:54Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7707287f175d6ac3b483e8a5b9fa7f52d244b200"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "7707287f175d6ac3b483e8a5b9fa7f52d244b200",
+    "commit_message": "uploaded sitemap",
+    "commit_date": "2025-03-07T03:07:47Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b7a6f92691232333765d7522ecf1d205130b9bc0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "b7a6f92691232333765d7522ecf1d205130b9bc0",
+    "commit_message": "added google meta tag",
+    "commit_date": "2025-03-07T02:59:46Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6545acae2a59777f44fc129aa8c8cc7f809332ad"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "6545acae2a59777f44fc129aa8c8cc7f809332ad",
+    "commit_message": "Merge branches 'main' and 'main' of https://github.com/Donaks1/gsauwa",
+    "commit_date": "2025-03-06T03:34:33Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "1c42f463f605b53cfebed598fbf5ab064765c185",
+      "085a06771a9df78a34d1dab416f92b958a2dcf9b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "1c42f463f605b53cfebed598fbf5ab064765c185",
+    "commit_message": "changes before meeting",
+    "commit_date": "2025-03-06T03:12:40Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8b7a98ed918eaf8d786879dd3d7bdff61c4c720e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "085a06771a9df78a34d1dab416f92b958a2dcf9b",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-03-02T06:19:45Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1ec37cee6dd780d9eb688c8d8e510a25c3529c32"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "1ec37cee6dd780d9eb688c8d8e510a25c3529c32",
+    "commit_message": "Delete CNAME",
+    "commit_date": "2025-03-02T06:19:34Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8b7a98ed918eaf8d786879dd3d7bdff61c4c720e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "8b7a98ed918eaf8d786879dd3d7bdff61c4c720e",
+    "commit_message": "first test of instagram carousel",
+    "commit_date": "2025-02-28T02:34:36Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "34cc0505f52b7e3d63e4f6424625b4cc30c6beaf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "34cc0505f52b7e3d63e4f6424625b4cc30c6beaf",
+    "commit_message": "Merge branch 'main' of https://github.com/Donaks1/gsauwa",
+    "commit_date": "2025-02-20T23:30:35Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "fa8961e2c6d4cfdd6aab92dc50bfb06d494217e6",
+      "cbcdb9423226525053eec0764694467d0f7e07bd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "fa8961e2c6d4cfdd6aab92dc50bfb06d494217e6",
+    "commit_message": "changes before O-day",
+    "commit_date": "2025-02-20T23:29:55Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "726ed7ec2b8227517c79d49a383e83418f3b40dd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "cbcdb9423226525053eec0764694467d0f7e07bd",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-02-20T22:49:41Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "48f944a891a752227774c6792e67cc3913420c9c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "48f944a891a752227774c6792e67cc3913420c9c",
+    "commit_message": "Delete CNAME",
+    "commit_date": "2025-02-20T22:49:36Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "84396ce626c44a9be63215baff073dbb7631b7fc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "84396ce626c44a9be63215baff073dbb7631b7fc",
+    "commit_message": "Update CNAME",
+    "commit_date": "2025-02-20T22:44:31Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "18a3bf45d3adcba4787099ea5a9af7ad3577a760"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "18a3bf45d3adcba4787099ea5a9af7ad3577a760",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-02-20T22:29:26Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7fabe01f74131218cd8f9bdf730091239f735228"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "7fabe01f74131218cd8f9bdf730091239f735228",
+    "commit_message": "Delete CNAME",
+    "commit_date": "2025-02-20T22:29:18Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2c220a215d204664068cbab6e39059873615312d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "2c220a215d204664068cbab6e39059873615312d",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-02-20T22:29:09Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "31a6772a7c01216d10689a1af01890dafd6b060f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "31a6772a7c01216d10689a1af01890dafd6b060f",
+    "commit_message": "Delete CNAME",
+    "commit_date": "2025-02-20T22:28:56Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "84c7c076ab6469a3a4c6c57aca6dd0f536f5d540"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "84c7c076ab6469a3a4c6c57aca6dd0f536f5d540",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-02-20T22:22:47Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c7c5dbb26b9959c04c9ff7d5153bc150cf2dbff9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "c7c5dbb26b9959c04c9ff7d5153bc150cf2dbff9",
+    "commit_message": "Delete CNAME",
+    "commit_date": "2025-02-20T13:20:09Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "726ed7ec2b8227517c79d49a383e83418f3b40dd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "726ed7ec2b8227517c79d49a383e83418f3b40dd",
+    "commit_message": "Merge branch 'main' of https://github.com/Donaks1/gsauwa",
+    "commit_date": "2025-02-20T13:17:17Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "762ba71217c8532fbdf1be0ad60391294839cd2a",
+      "56f1f90ee832c593be3320685dd4a41845a46fd1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "762ba71217c8532fbdf1be0ad60391294839cd2a",
+    "commit_message": "fixed buy button for mobile",
+    "commit_date": "2025-02-20T13:17:06Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "248d08fa667fa9014fdc91d5f50fe6d51ba33afd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "56f1f90ee832c593be3320685dd4a41845a46fd1",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-02-20T13:04:19Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e11c78804c6d2b84152c8c72840edb33cb4b3e4e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "248d08fa667fa9014fdc91d5f50fe6d51ba33afd",
+    "commit_message": "removed process form php file",
+    "commit_date": "2025-02-20T04:37:26Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e11c78804c6d2b84152c8c72840edb33cb4b3e4e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "e11c78804c6d2b84152c8c72840edb33cb4b3e4e",
+    "commit_message": "Merge branch 'main' of https://github.com/Donaks1/gsauwa",
+    "commit_date": "2025-02-19T08:06:30Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "5cd473022c450da40f25d0df1b26de8be3c54b35",
+      "b3ac6efb9e5ae4ec29907861dccf16a804db0f5e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "5cd473022c450da40f25d0df1b26de8be3c54b35",
+    "commit_message": "setup payment form",
+    "commit_date": "2025-02-19T08:06:11Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "36bf829ce1d2852290c830b33f59041c4ecb11ca"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "b3ac6efb9e5ae4ec29907861dccf16a804db0f5e",
+    "commit_message": "Delete CNAME",
+    "commit_date": "2025-02-18T10:40:24Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4226a96938f6c1a88d54e13e325f211687ed9fd3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "4226a96938f6c1a88d54e13e325f211687ed9fd3",
+    "commit_message": "Create CNAME",
+    "commit_date": "2025-02-18T10:39:50Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "36bf829ce1d2852290c830b33f59041c4ecb11ca"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "36bf829ce1d2852290c830b33f59041c4ecb11ca",
+    "commit_message": "Ammended Signup Form",
+    "commit_date": "2025-02-18T10:37:51Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a3472b5fa285e35ef836e37124f4496b737448bf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "a3472b5fa285e35ef836e37124f4496b737448bf",
+    "commit_message": "Added dropdown for mobile",
+    "commit_date": "2025-02-18T07:31:35Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1530a17a57fc138d7b6cfbc5e23ff82be56fd67e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "1530a17a57fc138d7b6cfbc5e23ff82be56fd67e",
+    "commit_message": "fixed membership form on desktop",
+    "commit_date": "2025-02-18T07:07:54Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c09b4bba55b1bfb3db77c5612c6104e693205327"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "c09b4bba55b1bfb3db77c5612c6104e693205327",
+    "commit_message": "imporoved mobile compatibility",
+    "commit_date": "2025-02-18T07:01:42Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "81a5b3c4ba7df110a18a1e533ee0af9b440b2dd8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "81a5b3c4ba7df110a18a1e533ee0af9b440b2dd8",
+    "commit_message": "Filled GSA specific details",
+    "commit_date": "2025-02-16T12:49:10Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "30d9446aa4fbded0dd6530b3d3309a0cab32e128"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "30d9446aa4fbded0dd6530b3d3309a0cab32e128",
+    "commit_message": "added GSA logo",
+    "commit_date": "2025-02-16T12:34:56Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6ffebed8d66aaf5a97e569a39fdfd8fecfbe555d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "6ffebed8d66aaf5a97e569a39fdfd8fecfbe555d",
+    "commit_message": "improved security",
+    "commit_date": "2025-02-16T10:29:02Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "151a49d2bb2bc054bb06fa705e8a61bd4907034d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "151a49d2bb2bc054bb06fa705e8a61bd4907034d",
+    "commit_message": "second attempt at form",
+    "commit_date": "2025-02-16T10:26:27Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "eff511e3c50cc4c55da0698e4ab542ab3899148d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "eff511e3c50cc4c55da0698e4ab542ab3899148d",
+    "commit_message": "added signup form. email needs testing",
+    "commit_date": "2025-02-16T10:21:31Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3a0f3fdce16749ab798fabf64535d51ff86fd9f0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "3a0f3fdce16749ab798fabf64535d51ff86fd9f0",
+    "commit_message": "added background image",
+    "commit_date": "2025-02-16T10:02:25Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8988de288f9804c8d5f8dcb294aa6b23d4a807cc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 933570323,
+    "branch_name": "main",
+    "commit_sha": "8988de288f9804c8d5f8dcb294aa6b23d4a807cc",
+    "commit_message": "backbone of site",
+    "commit_date": "2025-02-16T09:42:23Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "e09b6bf1125b6bca0cfa343f9262871c5e009202",
+    "commit_message": "tweaked java for menu dropdown",
+    "commit_date": "2024-12-14T02:28:55Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "050426f74ab53493362e61d27a6ebd6247ace3f9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "050426f74ab53493362e61d27a6ebd6247ace3f9",
+    "commit_message": "js for clicking out of dropdown",
+    "commit_date": "2024-12-14T02:18:51Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "731dd80135cf3fb0298fcde366b49356713dd493"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "731dd80135cf3fb0298fcde366b49356713dd493",
+    "commit_message": "update background and other general fixes",
+    "commit_date": "2024-12-14T01:50:53Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8cc286ed02c482b8993a199916e2f8035e4998f8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "8cc286ed02c482b8993a199916e2f8035e4998f8",
+    "commit_message": "added backup video background",
+    "commit_date": "2024-12-11T12:01:56Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c274cc8f2ecb6b55861ac3a415e95c22ca1e08f4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "c274cc8f2ecb6b55861ac3a415e95c22ca1e08f4",
+    "commit_message": "plays inline for background vid",
+    "commit_date": "2024-12-11T11:52:16Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a94f8c604351024e69ebc6fa6f792a96016233b0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "a94f8c604351024e69ebc6fa6f792a96016233b0",
+    "commit_message": "Track large files with Git LFS",
+    "commit_date": "2024-12-11T11:47:52Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1b2be50325738f9099141d610fe5fade4b730c0d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "1b2be50325738f9099141d610fe5fade4b730c0d",
+    "commit_message": "readding all my files",
+    "commit_date": "2024-12-11T11:42:06Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "510f0a04f144d5c690986fc7d5b2c93a5d404356"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 901824254,
+    "branch_name": "main",
+    "commit_sha": "510f0a04f144d5c690986fc7d5b2c93a5d404356",
+    "commit_message": "Initial commit",
+    "commit_date": "2024-12-11T11:37:25Z",
+    "commit_author_login": "Donaks1",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "5c22dc680c476b088c9d63f67dacff80bf78d014",
+    "commit_message": "Merge pull request #36 from Bortalis/readme-final\n\nUpdate README.md with instructions on how to use our BEER :)",
+    "commit_date": "2025-05-19T14:41:25Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "96083f3ea16a6f2097cb4a1f06dc2ae13cf8b613",
+      "ddf40ed9efec71afa53d138a41469b491f975512"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "ddf40ed9efec71afa53d138a41469b491f975512",
+    "commit_message": "Update README.md",
+    "commit_date": "2025-05-19T14:38:18Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f11f616b649a8bc5dd58ff16fbe6595434d09e6c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "96083f3ea16a6f2097cb4a1f06dc2ae13cf8b613",
+    "commit_message": "Readded gamestating logging, kept print's inactive",
+    "commit_date": "2025-05-19T14:37:17Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f11f616b649a8bc5dd58ff16fbe6595434d09e6c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "f11f616b649a8bc5dd58ff16fbe6595434d09e6c",
+    "commit_message": "fixed grammatical error\n\"at\"  ->  \"on\" for spectator notifs",
+    "commit_date": "2025-05-19T14:26:16Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "21c5031647683db0c4e05223f4429812f16dbadd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "21c5031647683db0c4e05223f4429812f16dbadd",
+    "commit_message": "Cleaned up files for presentation",
+    "commit_date": "2025-05-19T14:15:01Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d8e730108d21ca14d2323804c0e378da9eb05c5e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "d8e730108d21ca14d2323804c0e378da9eb05c5e",
+    "commit_message": "Merge pull request #35 from Bortalis/minor-fixes-2\n\nMinor fixes 2",
+    "commit_date": "2025-05-19T14:12:42Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "26cf4ad082e9ef14eeded2e9025c089f65d30d2a",
+      "d4542e05bee09dae32a10737efa05583a3c2a426"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "d4542e05bee09dae32a10737efa05583a3c2a426",
+    "commit_message": "This should be the final commit for now",
+    "commit_date": "2025-05-19T14:11:30Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "5402fc2450d85629c0d7f694b629e82259096c71"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "5402fc2450d85629c0d7f694b629e82259096c71",
+    "commit_message": "commented out all gamestate debug messages",
+    "commit_date": "2025-05-19T14:09:15Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "795f9e2ae09fdfecff39b672d53450d898c54aa5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "26cf4ad082e9ef14eeded2e9025c089f65d30d2a",
+    "commit_message": "Merge pull request #34 from Bortalis/minor-fixes-2\n\nMinor fixes 2",
+    "commit_date": "2025-05-19T14:04:33Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "45bbca4b8ab862a42f494d08d61d491f8d055d48",
+      "795f9e2ae09fdfecff39b672d53450d898c54aa5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "795f9e2ae09fdfecff39b672d53450d898c54aa5",
+    "commit_message": "cleaning up looks",
+    "commit_date": "2025-05-19T14:03:20Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a0f77ac135c8b627ffc82b068e084d63913017c8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "a0f77ac135c8b627ffc82b068e084d63913017c8",
+    "commit_message": "add new line characted to spectator line",
+    "commit_date": "2025-05-19T13:11:48Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "45bbca4b8ab862a42f494d08d61d491f8d055d48"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "45bbca4b8ab862a42f494d08d61d491f8d055d48",
+    "commit_message": "Merge pull request #33 from Bortalis/fix-spectator\n\nFix spectator",
+    "commit_date": "2025-05-19T12:30:21Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "7e76964afae600f3b69718ad767307e379b5f71b",
+      "e7bc15e9bfe539e07382162cc41eb702888eb822"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "e7bc15e9bfe539e07382162cc41eb702888eb822",
+    "commit_message": "spect bugs fixed",
+    "commit_date": "2025-05-19T12:28:56Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "96eeb8c9bfb00714cea972cc89192e983c1538d8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "96eeb8c9bfb00714cea972cc89192e983c1538d8",
+    "commit_message": "Spectator_listen put out of commisionn",
+    "commit_date": "2025-05-19T12:14:53Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a56fa5ca7ee953cd47b8e9db29074f926e1b2b63"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "a56fa5ca7ee953cd47b8e9db29074f926e1b2b63",
+    "commit_message": "removed old spectate func",
+    "commit_date": "2025-05-19T12:02:08Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7e76964afae600f3b69718ad767307e379b5f71b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "7e76964afae600f3b69718ad767307e379b5f71b",
+    "commit_message": "Merge pull request #32 from Bortalis/minor-fixes\n\nAdded a board for spectators to look at",
+    "commit_date": "2025-05-19T12:01:09Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "4a257432e2bf4d3ebfb70c0d225bab0e51976437",
+      "c9821f8bf8ff4a9a95729073085c47c763707022"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "c9821f8bf8ff4a9a95729073085c47c763707022",
+    "commit_message": "Added a board for spectators to look at",
+    "commit_date": "2025-05-19T11:47:46Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e27e89647d2f5e6ba8f3b81d719c4f0f666c8c0a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "4a257432e2bf4d3ebfb70c0d225bab0e51976437",
+    "commit_message": "Merge pull request #31 from Bortalis/minor-fixes\n\nMinor fixes",
+    "commit_date": "2025-05-19T11:25:23Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "69deeca7542630a51b198429498de86160888b76",
+      "e27e89647d2f5e6ba8f3b81d719c4f0f666c8c0a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "e27e89647d2f5e6ba8f3b81d719c4f0f666c8c0a",
+    "commit_message": "coord input for remote placement is fixed",
+    "commit_date": "2025-05-19T11:10:59Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "71601255642b80d4f64d62fc497b099e4a228294"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "71601255642b80d4f64d62fc497b099e4a228294",
+    "commit_message": "Fixed cls for better client side viewing",
+    "commit_date": "2025-05-19T10:48:12Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "69deeca7542630a51b198429498de86160888b76"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "69deeca7542630a51b198429498de86160888b76",
+    "commit_message": "Merge pull request #30 from Bortalis/spec-potato\n\nSpec potato - t3.1,3.2",
+    "commit_date": "2025-05-19T04:49:29Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "41aa7d488147e129a46e6d33c93d3a976ad8cff9",
+      "4e04fc90f2cc41d8d2f2647a244048b33227ee01"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "4e04fc90f2cc41d8d2f2647a244048b33227ee01",
+    "commit_message": "Merge branch 'main' into spec-potato",
+    "commit_date": "2025-05-19T04:46:30Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "82fe16309ed2d50a93151612f16ec4617e8bfbfd",
+      "41aa7d488147e129a46e6d33c93d3a976ad8cff9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "41aa7d488147e129a46e6d33c93d3a976ad8cff9",
+    "commit_message": "Merge pull request #29 from Bortalis/Lac-branch\n\nLac branch",
+    "commit_date": "2025-05-19T04:42:11Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "40a84102d24a974f7e0ef9e6a7a3fb2d4e5eed33",
+      "ec4973d074c65b764cfd6779749524b642bef530"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "ec4973d074c65b764cfd6779749524b642bef530",
+    "commit_message": "3.4, communicates who's game starts next",
+    "commit_date": "2025-05-19T04:39:00Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "10b9299b5d16c4b1f30982426755f434249b38c1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "82fe16309ed2d50a93151612f16ec4617e8bfbfd",
+    "commit_message": "Spectator functionality added for funcs readmore:\n\nserver.py spectatorlisten()\nbattleship.py   spectatorbroadcast()\n\nServer will pass the broadcast this list to the battleship file",
+    "commit_date": "2025-05-19T04:36:49Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e6658d76a97a8ceca1ffc56e06d01955eed59fec"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "10b9299b5d16c4b1f30982426755f434249b38c1",
+    "commit_message": "Improved input validation alongside presesntation",
+    "commit_date": "2025-05-19T04:16:42Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "966e668940d8aed5df26cb71632a161faaf38f57"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "e6658d76a97a8ceca1ffc56e06d01955eed59fec",
+    "commit_message": "gameState change to 2 when player disconnects\n\nIf we do the rejoin thing may need to change it but we're probably dreaming at that point",
+    "commit_date": "2025-05-19T03:56:39Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "40a84102d24a974f7e0ef9e6a7a3fb2d4e5eed33"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "40a84102d24a974f7e0ef9e6a7a3fb2d4e5eed33",
+    "commit_message": "Merge pull request #28 from Bortalis/Lac-branch\n\nLac branch 2.4 done",
+    "commit_date": "2025-05-19T03:30:42Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "610b613ef1cad867b61a76bea9d59c89c90cd36a",
+      "11e757beed2646a480bde4793b45b9f16e7d51ec"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "966e668940d8aed5df26cb71632a161faaf38f57",
+    "commit_message": "Detects when a client closes/breaks with ctrl+c",
+    "commit_date": "2025-05-19T03:28:40Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "11e757beed2646a480bde4793b45b9f16e7d51ec"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "11e757beed2646a480bde4793b45b9f16e7d51ec",
+    "commit_message": "removed redundant flush_input",
+    "commit_date": "2025-05-19T03:17:54Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "deecb5ffa8823f860a1fdd47858100b2b899b8ab"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "deecb5ffa8823f860a1fdd47858100b2b899b8ab",
+    "commit_message": "Added timeout mech to battleship, needs testing, may make clients quicktime event redundant",
+    "commit_date": "2025-05-18T16:07:47Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "604ae0b136fb8adc572b09e8dddee01d8172c591"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "604ae0b136fb8adc572b09e8dddee01d8172c591",
+    "commit_message": "adding detection of socket closure/breakage",
+    "commit_date": "2025-05-18T15:46:51Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a393a9b03a362604110b3eb24964593f14200a37"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "a393a9b03a362604110b3eb24964593f14200a37",
+    "commit_message": "At the every least \"\" is detected as a brocken socket",
+    "commit_date": "2025-05-18T15:32:06Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d9dd6ff202b63229612b667c5aa90b15aa726770"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "610b613ef1cad867b61a76bea9d59c89c90cd36a",
+    "commit_message": "Merge pull request #26 from Bortalis/Lac-branch\n\nOK 2.2 is fully done",
+    "commit_date": "2025-05-18T14:40:46Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "da0c86622ee65710beda30253924c22cecefeec1",
+      "5eac0159b67951a4c83009022f924cbaf2a89f46"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "d9dd6ff202b63229612b667c5aa90b15aa726770",
+    "commit_message": "WOOO OK lobbies are working",
+    "commit_date": "2025-05-18T14:31:43Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "68d224ad928701cf6f190e6b89560a77aff84c1f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "68d224ad928701cf6f190e6b89560a77aff84c1f",
+    "commit_message": "lobbly working at 50%",
+    "commit_date": "2025-05-18T14:28:02Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ca3959799a41c55e7bed2c15036d0938d6fa2a4f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "ca3959799a41c55e7bed2c15036d0938d6fa2a4f",
+    "commit_message": "cleaned up and made lobby",
+    "commit_date": "2025-05-18T14:05:16Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "5eac0159b67951a4c83009022f924cbaf2a89f46"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "5eac0159b67951a4c83009022f924cbaf2a89f46",
+    "commit_message": "Honestly IDK",
+    "commit_date": "2025-05-18T13:42:52Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "da0c86622ee65710beda30253924c22cecefeec1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "da0c86622ee65710beda30253924c22cecefeec1",
+    "commit_message": "Merge pull request #25 from Bortalis/clean-up-and-T2.2\n\nClean up and t2.2",
+    "commit_date": "2025-05-18T13:17:34Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "231246d22d9bf1ba9de3e0553a5864f1b095c327",
+      "490fb4552856ad690598b9b3a88a5b0c6a80d4ff"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "490fb4552856ad690598b9b3a88a5b0c6a80d4ff",
+    "commit_message": "Merge branch 'main' into clean-up-and-T2.2",
+    "commit_date": "2025-05-18T13:16:44Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "0cf0ca6d932f0d8eb622cf8772024755408432b6",
+      "231246d22d9bf1ba9de3e0553a5864f1b095c327"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "0cf0ca6d932f0d8eb622cf8772024755408432b6",
+    "commit_message": "I think i need to start fresh again",
+    "commit_date": "2025-05-18T13:15:04Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "398025b29ebe0b3c7c27cb265ded4e04de292456"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "231246d22d9bf1ba9de3e0553a5864f1b095c327",
+    "commit_message": "Merge pull request #24 from Bortalis/setup-2.4,-2.5-(if-possible)\n\ntask 2.5 start up",
+    "commit_date": "2025-05-18T13:14:09Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "ebe32061631f975cb62d7ca64a144cdd92cc6cea",
+      "62f01f71650f9dcd77e9734ca37eac22d7d86bc5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "398025b29ebe0b3c7c27cb265ded4e04de292456",
+    "commit_message": "quick save",
+    "commit_date": "2025-05-18T12:58:03Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "695d8800678b68b7bfafa6617205e943938122d7"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "62f01f71650f9dcd77e9734ca37eac22d7d86bc5",
+    "commit_message": "i don't know what the last thing i did actuallywas",
+    "commit_date": "2025-05-18T12:57:09Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ebe32061631f975cb62d7ca64a144cdd92cc6cea"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "695d8800678b68b7bfafa6617205e943938122d7",
+    "commit_message": "More progress on the lobby, refixed flush_input",
+    "commit_date": "2025-05-18T12:30:35Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "100e5f4087bc2968b538fabc1c6ae775708af8bf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "100e5f4087bc2968b538fabc1c6ae775708af8bf",
+    "commit_message": "Lobby semi implemented",
+    "commit_date": "2025-05-18T11:20:18Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7942d158378db06749c6827d3765d0ac1b61462f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "7942d158378db06749c6827d3765d0ac1b61462f",
+    "commit_message": "quits can be used for any input",
+    "commit_date": "2025-05-18T10:43:22Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "abf3e3708e558e0449f362fbe7d0b477312228cf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "abf3e3708e558e0449f362fbe7d0b477312228cf",
+    "commit_message": "Numerous games now supported WOOO",
+    "commit_date": "2025-05-18T10:21:34Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3fb26b8fdfbdb24aeb202547e0c501795a5d02c9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "ebe32061631f975cb62d7ca64a144cdd92cc6cea",
+    "commit_message": "Merge pull request #22 from Bortalis/clean-up-and-T2.2\n\nClean up and t2.2",
+    "commit_date": "2025-05-18T10:19:05Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "454dc9d8e50842adf71108380094211e95961cb6",
+      "3fb26b8fdfbdb24aeb202547e0c501795a5d02c9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "3fb26b8fdfbdb24aeb202547e0c501795a5d02c9",
+    "commit_message": "server should stay on indefinetly until manully terminated",
+    "commit_date": "2025-05-18T10:14:50Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "98185d3d7e296db454625963b15aaa71af565b7e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "98185d3d7e296db454625963b15aaa71af565b7e",
+    "commit_message": "Players can now have rematches",
+    "commit_date": "2025-05-18T10:10:32Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e2a4561c7bda00a3a857c5fb0c0f1aa784178697"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "e2a4561c7bda00a3a857c5fb0c0f1aa784178697",
+    "commit_message": "still working on 2.2, other wise readabililty improved",
+    "commit_date": "2025-05-18T09:29:23Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8330b263816c0cb28a1d00433242312ed28b6c43"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "8330b263816c0cb28a1d00433242312ed28b6c43",
+    "commit_message": "Moved notes and removed old reference functions from battleship.py",
+    "commit_date": "2025-05-18T07:42:42Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "454dc9d8e50842adf71108380094211e95961cb6"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "454dc9d8e50842adf71108380094211e95961cb6",
+    "commit_message": "Merge pull request #21 from Bortalis/2.3\n\n2.3",
+    "commit_date": "2025-05-18T07:08:56Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "877316b2a77a615dd7ac7870553c7065f4b67925",
+      "69f512fde95d94587f8f9035b26a104688996cd0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "69f512fde95d94587f8f9035b26a104688996cd0",
+    "commit_message": "Merge branch 'main' into 2.3",
+    "commit_date": "2025-05-18T07:08:43Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "0938cc26bf7b09bf3c4ad3ba0b398d5431a2ecca",
+      "877316b2a77a615dd7ac7870553c7065f4b67925"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "877316b2a77a615dd7ac7870553c7065f4b67925",
+    "commit_message": "Forgot I shouldn't be making changes to main. whelp- removing old files",
+    "commit_date": "2025-05-18T07:04:52Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "80a9e8429e4eef37a5bc748791ff525a43267cef"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "80a9e8429e4eef37a5bc748791ff525a43267cef",
+    "commit_message": "Merge pull request #20 from Bortalis/MESSAGE-CLIENT-VS-SERVER-VS-GODZILLA\n\nMessage client vs server vs my sanity",
+    "commit_date": "2025-05-18T07:02:07Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "445f9d6eec8c014304232f39bfeabd2dc1601f85",
+      "9318c3d6b6173ae157a3a5f1a34e6db465dec660"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "0938cc26bf7b09bf3c4ad3ba0b398d5431a2ecca",
+    "commit_message": "Manual ship placment finished, fixed board display",
+    "commit_date": "2025-05-18T06:57:31Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2e96662b21ecfd33f6b6a8a38a7cb9d99bfb5311"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "9318c3d6b6173ae157a3a5f1a34e6db465dec660",
+    "commit_message": "Merge branch 'main' into MESSAGE-CLIENT-VS-SERVER-VS-GODZILLA",
+    "commit_date": "2025-05-18T06:54:58Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "e0d8e44176a005a81200837011a77d2bec41ffa3",
+      "445f9d6eec8c014304232f39bfeabd2dc1601f85"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "e0d8e44176a005a81200837011a77d2bec41ffa3",
+    "commit_message": "m",
+    "commit_date": "2025-05-18T06:51:13Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "abff862ee51086f11b76e5faab30ac6d950c133a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "abff862ee51086f11b76e5faab30ac6d950c133a",
+    "commit_message": "m conflits",
+    "commit_date": "2025-05-18T06:47:21Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "dff3d24e6ab0cf1b641c8581c80d30b8913d0f38"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "dff3d24e6ab0cf1b641c8581c80d30b8913d0f38",
+    "commit_message": "merge conflict resolution",
+    "commit_date": "2025-05-18T06:45:48Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b5541c63bae0472eb65e70bee61ee4db41c339e5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "2e96662b21ecfd33f6b6a8a38a7cb9d99bfb5311",
+    "commit_message": "Multiplayer ship placement 90% done",
+    "commit_date": "2025-05-18T06:37:43Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a0c4086bb0b278155be529b06b10b522213570fe"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "b5541c63bae0472eb65e70bee61ee4db41c339e5",
+    "commit_message": "Minimal Messaging \"completed\"\n\nClient and Server will communicate to each other what current game state they are in.\nThis will be logged on the server log.\nAs inputs are already sent to the server and the game, our team found it counterintuitive to send extra messages that would\npossibly interupt the flow of the game (ie the example the task sheet provided) thus we decided to sharing the game state\nwould be the most effective thing to message back and forth between the client and server.",
+    "commit_date": "2025-05-18T06:34:29Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1cab4caf92c7b789b0fdad4018b00e9da908115a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "445f9d6eec8c014304232f39bfeabd2dc1601f85",
+    "commit_message": "Merge pull request #19 from Bortalis/2.3\n\nAdded a quick time event, finished 2.3",
+    "commit_date": "2025-05-18T05:08:18Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c8dd11e8e8783e0a4f66a6eaa9c60d7a2ab70c21",
+      "a0c4086bb0b278155be529b06b10b522213570fe"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "1cab4caf92c7b789b0fdad4018b00e9da908115a",
+    "commit_message": "Now the Server will listen to client\n\nMessage recieved will be logged to the server log and and response sent back\nThese response will be looked into",
+    "commit_date": "2025-05-18T03:41:56Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b16ae1f8c95820179a5918e1f1ed53a6d9af7085"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "b16ae1f8c95820179a5918e1f1ed53a6d9af7085",
+    "commit_message": "NEW FUNCTIONS TO send back a message to Server\n\nMessage isbased on user input",
+    "commit_date": "2025-05-18T03:25:08Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "15732b4f88d24e662ec218f5f24934eb22e8ffa3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "15732b4f88d24e662ec218f5f24934eb22e8ffa3",
+    "commit_message": "same as previous but with if-else check",
+    "commit_date": "2025-05-18T02:51:20Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "de6b3c6bb6424d684a04787aff67d04489dad6d4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "de6b3c6bb6424d684a04787aff67d04489dad6d4",
+    "commit_message": "Server Log will update with gamephase\n\nThis also indicates that the gamephase should successfully update",
+    "commit_date": "2025-05-18T02:46:30Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d7ca0816d39e679c12a44a1a29cc578226cc1fe3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "d7ca0816d39e679c12a44a1a29cc578226cc1fe3",
+    "commit_message": "fixing to get the client file to work right again",
+    "commit_date": "2025-05-17T14:19:14Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0fa9a36ed3a5644956a6b15fc0263c21eeddfe3c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "0fa9a36ed3a5644956a6b15fc0263c21eeddfe3c",
+    "commit_message": "problem in testing, trying to fix",
+    "commit_date": "2025-05-17T14:00:26Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "57ccee350c21ff61f8f107756b149228ef0ca21b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "57ccee350c21ff61f8f107756b149228ef0ca21b",
+    "commit_message": "fixing client back to as it was",
+    "commit_date": "2025-05-17T13:57:15Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3b81a27984f082b6d0fd4d281d000f54a54b079c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "3b81a27984f082b6d0fd4d281d000f54a54b079c",
+    "commit_message": "Problems runnings on both CLIENTS HELP HELP ME",
+    "commit_date": "2025-05-17T13:51:25Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "93e65c8c8db9579d370e60eedffe56decf3b9d7e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "a0c4086bb0b278155be529b06b10b522213570fe",
+    "commit_message": "improved commenting and cleaned up code to be easier to ready",
+    "commit_date": "2025-05-17T13:44:50Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "9e7adcd01a29aa2f1c888902c2a1b429f8f8d2bd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "9e7adcd01a29aa2f1c888902c2a1b429f8f8d2bd",
+    "commit_message": "Added a quick time event, finished 2.3",
+    "commit_date": "2025-05-17T13:41:37Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c8dd11e8e8783e0a4f66a6eaa9c60d7a2ab70c21"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "93e65c8c8db9579d370e60eedffe56decf3b9d7e",
+    "commit_message": "Playing with GameState (battleship & server)\n\nThese files will exchange this variable and updat it depending on the game state.",
+    "commit_date": "2025-05-17T12:54:02Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "01150f56b189aed83545e374c263aa6f4bd4021b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "01150f56b189aed83545e374c263aa6f4bd4021b",
+    "commit_message": "Added GAMESTATE to battleship.py\n\nTHIS WILL BE 0 in placement phase, 1 in firing phase, and 2 in game over phase\nThank you, GODZILLA from MESSAGE-CLIENT-VS-SERVER-VS-GODZILLA",
+    "commit_date": "2025-05-17T12:29:26Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0e66db827b81fa00175d87bdb29d77c644f2f059"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "0e66db827b81fa00175d87bdb29d77c644f2f059",
+    "commit_message": "Server will recieve messages and try answer back\n\nNo logic to handle HIT/MISS, yet",
+    "commit_date": "2025-05-17T07:55:28Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "82bff5e0a380581490e8d5d7c7cd157f3ca7e749"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "82bff5e0a380581490e8d5d7c7cd157f3ca7e749",
+    "commit_message": "Created send_messages() in client\n\nThis will in fact, match the freak of the recieve messsages function in client.py\nI was on a bit of a wild goose chase but it seems that battleship.py formats messages for us,\nhence the client and server need only exchange these strings.\n\nI do not like this project.",
+    "commit_date": "2025-05-17T07:24:41Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b9f74e8ce3c8e7dd71ba87391d111c40d8d37d6f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "b9f74e8ce3c8e7dd71ba87391d111c40d8d37d6f",
+    "commit_message": "saving current progress for the day \\",
+    "commit_date": "2025-05-17T05:07:59Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b3ff3709f9c592323335532f72b98205434ef94b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "b3ff3709f9c592323335532f72b98205434ef94b",
+    "commit_message": "Server now reads and Responds to messages\n\nOnce fire request sent it will be acknowledged by server",
+    "commit_date": "2025-05-12T06:27:17Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "56bbf2e3599fb1951b64f1825d8796f52212beaa"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "56bbf2e3599fb1951b64f1825d8796f52212beaa",
+    "commit_message": "Client will send a basic fire message to Server.\n\nNext step: Server will need to read it and respond with placeholder\nStep 2: Let it know if hit or miss\nStep 3: Client will need to display the result that way",
+    "commit_date": "2025-05-12T06:04:23Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "54072c27ee24f48491c36d8495087c29115e3fb1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "54072c27ee24f48491c36d8495087c29115e3fb1",
+    "commit_message": "notes for me :0\n\nattempted to start adding to client.py but i'm thinkning it out ;(\n    crying emoji",
+    "commit_date": "2025-05-12T05:21:53Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "alligator-byte",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c8dd11e8e8783e0a4f66a6eaa9c60d7a2ab70c21"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "c8dd11e8e8783e0a4f66a6eaa9c60d7a2ab70c21",
+    "commit_message": "Merge branch 'main' of https://github.com/Bortalis/Networks",
+    "commit_date": "2025-05-12T04:18:15Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "b800e09701b652bc78ae55fd68384c9cbd2701d7",
+      "211e6f257f689ed7067ef9ed935c5ba2cf62a400"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "b800e09701b652bc78ae55fd68384c9cbd2701d7",
+    "commit_message": "we really should ignore server_log",
+    "commit_date": "2025-05-12T04:18:12Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8377d7584c66cd6f3b6db9a994a209afa97fc942"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "211e6f257f689ed7067ef9ed935c5ba2cf62a400",
+    "commit_message": "Merge pull request #14 from Bortalis/T2.1\n\nT2.1",
+    "commit_date": "2025-05-12T04:16:37Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "8377d7584c66cd6f3b6db9a994a209afa97fc942",
+      "d5ed648dbdf45dfc5668f0a70a0f04a298ecd6de"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "d5ed648dbdf45dfc5668f0a70a0f04a298ecd6de",
+    "commit_message": "2.1 mostly done, added flush_input() to consume any input done while it isn't a players turn",
+    "commit_date": "2025-05-12T04:14:21Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "14a9ed1fadadc1a010603834d163ae8a406b23e3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "14a9ed1fadadc1a010603834d163ae8a406b23e3",
+    "commit_message": "IDK EVEN WHY",
+    "commit_date": "2025-05-12T03:54:28Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8377d7584c66cd6f3b6db9a994a209afa97fc942"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "8377d7584c66cd6f3b6db9a994a209afa97fc942",
+    "commit_message": "Merge pull request #8 from Bortalis/NEW-1.4\n\nThis finishes up 1.4 and 1.5, at the moment, if any one player disconnects, the server shuts down- (NOTE: other games would still go on, however the server shuts down when all games halt anyways)",
+    "commit_date": "2025-05-11T15:40:04Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "e72709b92ac7cd17c51bf27dda83343fd5954c39",
+      "c5c3caefee27b9667436339504a4935f8705a867"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "c5c3caefee27b9667436339504a4935f8705a867",
+    "commit_message": "This finishes up 1.4 and 1.5, at the moment, if any one player disconnects, the server shuts down- (NOTE: other games would still go on, however the server shuts down when all games halt anyways)",
+    "commit_date": "2025-05-11T15:35:16Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b9465f7d0892e8238752ba868336c199cee1bf24"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "b9465f7d0892e8238752ba868336c199cee1bf24",
+    "commit_message": "still going, (not so well), wfile problems",
+    "commit_date": "2025-05-11T15:10:36Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "30490cfe6fa1d9c8e307f99d035d083ecb52c1c3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "30490cfe6fa1d9c8e307f99d035d083ecb52c1c3",
+    "commit_message": "Some multiplayer functionalty finished",
+    "commit_date": "2025-05-11T11:53:55Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e72709b92ac7cd17c51bf27dda83343fd5954c39"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "e72709b92ac7cd17c51bf27dda83343fd5954c39",
+    "commit_message": "Merge pull request #6 from Bortalis/T1.3\n\nT1.3",
+    "commit_date": "2025-05-11T07:56:45Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "a31c11d40f6f586e0689137d9c2cef7fc7270df2",
+      "8f84668fdbeb91d445941b6a5ccf6625cbb7fcc1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "8f84668fdbeb91d445941b6a5ccf6625cbb7fcc1",
+    "commit_message": "just fitting this in now",
+    "commit_date": "2025-05-11T07:55:33Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "55048385a775b51fd22631648e10a2004b385273"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "55048385a775b51fd22631648e10a2004b385273",
+    "commit_message": "still workin on it :(",
+    "commit_date": "2025-05-09T01:05:22Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2b2afc64a4dbe539f41a8c36cbcc0e96325f5efc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "2b2afc64a4dbe539f41a8c36cbcc0e96325f5efc",
+    "commit_message": "slightlybetter",
+    "commit_date": "2025-05-05T05:05:30Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "89a96b21f0dbb5b66dcd29f52bf26d531b91f528"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "89a96b21f0dbb5b66dcd29f52bf26d531b91f528",
+    "commit_message": "t1.3 92% done",
+    "commit_date": "2025-05-05T04:44:48Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7ed549583af91938b6782f181127e05f6fb4ace2"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "7ed549583af91938b6782f181127e05f6fb4ace2",
+    "commit_message": "DOne?",
+    "commit_date": "2025-05-05T04:16:41Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "84d0382236ee58d00ba8f5bc893d5836fd199cdc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "84d0382236ee58d00ba8f5bc893d5836fd199cdc",
+    "commit_message": "again same as before",
+    "commit_date": "2025-05-05T04:12:09Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "fc98cd770191123fe7bba0c1e03546743267e416"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "fc98cd770191123fe7bba0c1e03546743267e416",
+    "commit_message": "improve reading flow of battleship.py",
+    "commit_date": "2025-05-05T04:10:23Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "62e333a38f78276839846d70e920f19be45efc1f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "a31c11d40f6f586e0689137d9c2cef7fc7270df2",
+    "commit_message": "Merge pull request #5 from Bortalis/T1.3",
+    "commit_date": "2025-05-05T03:58:48Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "0c68d47c7568c0e3266ed8aca2f653fdc4c51d4b",
+      "62e333a38f78276839846d70e920f19be45efc1f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "62e333a38f78276839846d70e920f19be45efc1f",
+    "commit_message": "minor fixes",
+    "commit_date": "2025-05-05T03:57:52Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "60961d47468058213922ab8fb6609b33f9469012"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "60961d47468058213922ab8fb6609b33f9469012",
+    "commit_message": "fixed grid-board misallignment",
+    "commit_date": "2025-05-05T03:48:10Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f6f79fb317f53618f9fa75b76872284deb46f1c5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "f6f79fb317f53618f9fa75b76872284deb46f1c5",
+    "commit_message": "idk2",
+    "commit_date": "2025-04-30T00:59:12Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "55edb30504a28346702f4c67a7cc4641bdf87fc0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "55edb30504a28346702f4c67a7cc4641bdf87fc0",
+    "commit_message": "idk stiill",
+    "commit_date": "2025-04-29T05:57:14Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8627c9f62dfc9916f7d2355f5d8899936b975184"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "8627c9f62dfc9916f7d2355f5d8899936b975184",
+    "commit_message": "i dont even kn ow...",
+    "commit_date": "2025-04-29T03:31:39Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0c68d47c7568c0e3266ed8aca2f653fdc4c51d4b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "0c68d47c7568c0e3266ed8aca2f653fdc4c51d4b",
+    "commit_message": "error correction for coordinates syntaxically correrct but out of bounds",
+    "commit_date": "2025-04-29T01:58:27Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "5232a9ec349862eabff739cb8f079c153de01b11"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "5232a9ec349862eabff739cb8f079c153de01b11",
+    "commit_message": "Added a logging to server.py, moved old reference code to it's own file",
+    "commit_date": "2025-04-29T01:43:41Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "9cbd41025fad07005ee7095cd3ffa28f3dff572c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "9cbd41025fad07005ee7095cd3ffa28f3dff572c",
+    "commit_message": "Improved comments and copyed battleship.py for refrencing",
+    "commit_date": "2025-04-26T12:56:09Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4cd455f6396855b4e57608ade0fa72f382744f4f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "4cd455f6396855b4e57608ade0fa72f382744f4f",
+    "commit_message": "Merge pull request #2 from Bortalis/T1.2\n\nT1.2 woo!",
+    "commit_date": "2025-04-26T12:33:36Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "778049cb4ba4e93ea1c4923db919d1bab6d0cf09",
+      "bc1fbe612102e729f7fdeb4e04586d9ee832e328"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "bc1fbe612102e729f7fdeb4e04586d9ee832e328",
+    "commit_message": "Players can now start their individual games, ONCE two people are waiting",
+    "commit_date": "2025-04-26T12:29:54Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4d569204c470e3a88d6e48cc122270b7f820ffd6"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "4d569204c470e3a88d6e48cc122270b7f820ffd6",
+    "commit_message": "multiple players can now do their own games, still no multiplayer games",
+    "commit_date": "2025-04-26T11:07:52Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "778049cb4ba4e93ea1c4923db919d1bab6d0cf09"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "778049cb4ba4e93ea1c4923db919d1bab6d0cf09",
+    "commit_message": "YAYYY T1.1 is 99% done. I have yet to encounter any problems, of couse there is probably improvments to be done but other tasks should be done first",
+    "commit_date": "2025-04-26T02:12:42Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7fb33fa836ce8949390bacbcb62c473836bf3dbd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "7fb33fa836ce8949390bacbcb62c473836bf3dbd",
+    "commit_message": "Task 1.1 is 95% implemented (is functional, improvments would be nice)",
+    "commit_date": "2025-04-25T09:24:00Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2c4a982c177538f98980eda8a857c053945bdb9b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "2c4a982c177538f98980eda8a857c053945bdb9b",
+    "commit_message": "Merge pull request #1 from Bortalis/fix-battle-py\n\nyeah there's a lot' if more info is needed look a the pull request comment",
+    "commit_date": "2025-04-24T13:21:16Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "f9689bacdef25a7005853f49b0a17e62f515381c",
+      "97eef5a8af3783c2f376ff0382653ab650e689b7"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "97eef5a8af3783c2f376ff0382653ab650e689b7",
+    "commit_message": "mostly working",
+    "commit_date": "2025-04-24T13:14:49Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d5e5d25cb61bcd4b2b560a6948eebd43ff9c0e39"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "d5e5d25cb61bcd4b2b560a6948eebd43ff9c0e39",
+    "commit_message": "further work done",
+    "commit_date": "2025-04-24T12:52:25Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ce51ca5fe781008e27001493395b52908b0a8328"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "ce51ca5fe781008e27001493395b52908b0a8328",
+    "commit_message": "Merge branch 'fix-battle-py' of https://github.com/Bortalis/Networks into fix-battle-py",
+    "commit_date": "2025-04-17T14:42:32Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c5c1775bf7a46e6c08ffd344beaf6901967f3175",
+      "dd3c6afa87805013d3a0e40ace7bd55af29d50c6"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "dd3c6afa87805013d3a0e40ace7bd55af29d50c6",
+    "commit_message": "Update client.py",
+    "commit_date": "2025-04-17T06:31:09Z",
+    "commit_author_login": "alligator-byte",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "39ef511e31c912215affdf7771583e87db2d7d0d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "c5c1775bf7a46e6c08ffd344beaf6901967f3175",
+    "commit_message": "Unfinished changes to client.py, incorperating threading",
+    "commit_date": "2025-04-17T02:48:58Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "39ef511e31c912215affdf7771583e87db2d7d0d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "39ef511e31c912215affdf7771583e87db2d7d0d",
+    "commit_message": "Created a old copy of client.py for redundancy",
+    "commit_date": "2025-04-17T02:22:02Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "Bortalis",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f9689bacdef25a7005853f49b0a17e62f515381c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "f9689bacdef25a7005853f49b0a17e62f515381c",
+    "commit_message": "Adding initial project files\n\nwhoooo! this will be so fun",
+    "commit_date": "2025-04-17T01:43:36Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ae274aad8c6cc11a4063b76212db56058c3e162c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 967777488,
+    "branch_name": "main",
+    "commit_sha": "ae274aad8c6cc11a4063b76212db56058c3e162c",
+    "commit_message": "Initial commit",
+    "commit_date": "2025-04-17T01:42:43Z",
+    "commit_author_login": "Bortalis",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "4d098391f7fea426cb969eb16b93cdc3f81fe941",
+    "commit_message": "Fixed bug where selecting a timeslot with an activity\ndid not have the intended behaviour if the timeslot was a full or partial timeslot.\nThis is because we did not remove the full/partial subclass from them, and set the\navailability to \"\" when giving a timeslot an activity.",
+    "commit_date": "2025-05-16T15:13:40Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "9a50b908405c689dc9c32ef1809dab4e59f3dc46"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "9a50b908405c689dc9c32ef1809dab4e59f3dc46",
+    "commit_message": "Fixed issue where dark mode led to not being able to see full or partial timeslots, and focused activity box.",
+    "commit_date": "2025-05-16T15:09:20Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "78cb4568dccd56942618b96d69d7b65e67c158f7"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "78cb4568dccd56942618b96d69d7b65e67c158f7",
+    "commit_message": "fixed the readme",
+    "commit_date": "2025-05-16T14:44:32Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "626ac2caaca965950b5cb96415048d44208128ae"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "626ac2caaca965950b5cb96415048d44208128ae",
+    "commit_message": "updated the readme",
+    "commit_date": "2025-05-16T14:27:46Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4c438078c2ca375ed4335e2e45e9b3d8aa4eb37e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "4c438078c2ca375ed4335e2e45e9b3d8aa4eb37e",
+    "commit_message": "changed css for background\n\nFix: Resolved the issues with layout of notifications\nalso done changes for background to look better.",
+    "commit_date": "2025-05-16T14:17:19Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "b363449b038925be8fe25828ce8f9f685b9f4394",
+      "8bdefaa854a12609627e2c72d540ca4e25ab49da"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "8bdefaa854a12609627e2c72d540ca4e25ab49da",
+    "commit_message": "moved the darmkode css in any other files to the darkmode.css file",
+    "commit_date": "2025-05-16T14:12:23Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "462dca0b5ff76fa253a2caff133d2bd09d917325"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "462dca0b5ff76fa253a2caff133d2bd09d917325",
+    "commit_message": "updated the darkmode css on the login page, the signup page and the assessments page~",
+    "commit_date": "2025-05-16T14:07:43Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ec8a8b58974f6a3264fdb833ae15d4005794e465"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ec8a8b58974f6a3264fdb833ae15d4005794e465",
+    "commit_message": "Adjusted assessment page container for consistency with other pages.",
+    "commit_date": "2025-05-16T13:53:19Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b31f47a0d63b89dc1339143ae63ba25ce539574f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b31f47a0d63b89dc1339143ae63ba25ce539574f",
+    "commit_message": "I have fixed the issus in the layout of the notifications and layout of the score input of edit assessment.",
+    "commit_date": "2025-05-16T13:24:23Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8f95f7a359739139754bc3a53e4e856c6d8d57bd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b363449b038925be8fe25828ce8f9f685b9f4394",
+    "commit_message": "Merge pull request #80 from tri-tim-m-nguyen/background\n\nFeature: Added a blue background for the application",
+    "commit_date": "2025-05-16T13:00:07Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "aa2407ef046a08e449887033634df8bc87d585ac",
+      "8f95f7a359739139754bc3a53e4e856c6d8d57bd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "aa2407ef046a08e449887033634df8bc87d585ac",
+    "commit_message": "Added student details in README.md",
+    "commit_date": "2025-05-16T13:00:04Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "900104dbbaf5902d8626e492872c84ae09202b22"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "900104dbbaf5902d8626e492872c84ae09202b22",
+    "commit_message": "Merge pull request #81 from tri-tim-m-nguyen/tri-tim-m-nguyen-patch-1\n\nAttempt at adding group table",
+    "commit_date": "2025-05-16T12:57:12Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "0dace2aefc9dc10e7a0ae36fb062b739ddd7270b",
+      "5a5cda659238bc130be1ecbaa921f96176f71529"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "5a5cda659238bc130be1ecbaa921f96176f71529",
+    "commit_message": "Attempt at adding group table\n\nAttempt at adding table listing group members. \r\nAdded row for myself.",
+    "commit_date": "2025-05-16T12:55:17Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0dace2aefc9dc10e7a0ae36fb062b739ddd7270b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "8f95f7a359739139754bc3a53e4e856c6d8d57bd",
+    "commit_message": "I have added a blue gradient background to make the application visually appealling.",
+    "commit_date": "2025-05-16T12:52:02Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0dace2aefc9dc10e7a0ae36fb062b739ddd7270b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "0dace2aefc9dc10e7a0ae36fb062b739ddd7270b",
+    "commit_message": "Merge pull request #79 from tri-tim-m-nguyen/EditAssessmentBug\n\nEdit Assessment Bug Fix",
+    "commit_date": "2025-05-16T10:47:41Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "98fda3cc1c5eea5d2389e2cdf775c1187ef3cf73",
+      "8bf76043d0e4a0dd98394996936d0c04b2207bd4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "98fda3cc1c5eea5d2389e2cdf775c1187ef3cf73",
+    "commit_message": "Small bug fixes\n\nFixes small bugs mentioned in one of the issues",
+    "commit_date": "2025-05-16T10:43:27Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "61dae2236318131a17ade26f17688129ca726163",
+      "04bb73d33c28bfbdcf638219658240230f99e1ff"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "8bf76043d0e4a0dd98394996936d0c04b2207bd4",
+    "commit_message": "I have fixed the bug that casued the edit assessment feature to not to work.",
+    "commit_date": "2025-05-16T10:43:14Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2d9275ed208f9134b7996d0bd0870bb2a2f053c1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "61dae2236318131a17ade26f17688129ca726163",
+    "commit_message": "created a readme that explains how the website works and how to run the tests",
+    "commit_date": "2025-05-16T10:42:03Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "af3db5a5299d7f3b6352960ac342ba66f3f9669a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "04bb73d33c28bfbdcf638219658240230f99e1ff",
+    "commit_message": "Merge branch 'main' into minor-bug-fixes",
+    "commit_date": "2025-05-16T10:09:31Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "5fcfda3e735227c3ca048fa3b9268433eaa6b376",
+      "af3db5a5299d7f3b6352960ac342ba66f3f9669a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "af3db5a5299d7f3b6352960ac342ba66f3f9669a",
+    "commit_message": "Merge branch 'main' of https://github.com/tri-tim-m-nguyen/study-plan-application",
+    "commit_date": "2025-05-16T10:03:51Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "971bd3301106bfd27350f61a096a5e6aeed2d6a0",
+      "79c21beaee233e70bb2656be7412bb099a269aee"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "971bd3301106bfd27350f61a096a5e6aeed2d6a0",
+    "commit_message": "Fix pull request #61\nPull request #61 renamed and reverted some changes in timetable.css file from later commits.\nThis changes them back to their original state.",
+    "commit_date": "2025-05-16T10:02:43Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d0a3d50fd72925a123bea6fc39e39d75e49d6900"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "79c21beaee233e70bb2656be7412bb099a269aee",
+    "commit_message": "fixed the home/index page to better reflect how the website works and its goals",
+    "commit_date": "2025-05-16T10:02:08Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d0a3d50fd72925a123bea6fc39e39d75e49d6900"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d0a3d50fd72925a123bea6fc39e39d75e49d6900",
+    "commit_message": "Comments\n\nThis PR adds nice clear and simple comments to all the code that has been written in each file",
+    "commit_date": "2025-05-16T09:45:36Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c33a3a4724a0b19dd43cf373a098ad89747fd9df",
+      "9f92e5c4a5ba17de18e92f6fba35793db56ec8d9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "9f92e5c4a5ba17de18e92f6fba35793db56ec8d9",
+    "commit_message": "the merge conflicts has been resolved and additional comments has been added for new files and features.",
+    "commit_date": "2025-05-16T09:12:45Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "224d1605dd1753129fd8a59f5b3004e628b26986",
+      "2d9275ed208f9134b7996d0bd0870bb2a2f053c1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "c33a3a4724a0b19dd43cf373a098ad89747fd9df",
+    "commit_message": "this is the requirements.txt needed to run everything",
+    "commit_date": "2025-05-16T08:09:26Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2d9275ed208f9134b7996d0bd0870bb2a2f053c1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2d9275ed208f9134b7996d0bd0870bb2a2f053c1",
+    "commit_message": "Inbox in Nav bar\n\nThe pending requests that user now get will appear in a drop down as a notification button in the nav bar",
+    "commit_date": "2025-05-16T07:15:20Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "7bd2cd7da4859fb109afd3ec7b722c2b8cb0e7fc",
+      "6bc0ff6bee667c91b7d4ba834628ed467a119a49"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6bc0ff6bee667c91b7d4ba834628ed467a119a49",
+    "commit_message": "Revert \"Delete app/routes.py\"\n\nThis reverts commit a0d1d3282234f42b877d9559753012eba72093b7.",
+    "commit_date": "2025-05-16T07:09:54Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a0d1d3282234f42b877d9559753012eba72093b7"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "a0d1d3282234f42b877d9559753012eba72093b7",
+    "commit_message": "Delete app/routes.py\n\nNo changes made here",
+    "commit_date": "2025-05-16T07:02:12Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "433d2b3a8a5557ebe5c24d389a428e67948694a5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "7bd2cd7da4859fb109afd3ec7b722c2b8cb0e7fc",
+    "commit_message": "Selenium tests\n\nThis PR will now include 5 Selenium tests:\n1- a test to create an account\n2- a test to log out of an account\n3- a test to log into an account\n4- a test to create an activity\n5- a test to create an assessment for an activity",
+    "commit_date": "2025-05-16T06:39:50Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c9e29f51a8a90e131e7d193121dc3b99da679bd8",
+      "353fbd8270da05f74898c71df5d0ea24478cfdfb"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "353fbd8270da05f74898c71df5d0ea24478cfdfb",
+    "commit_message": "test for creating an assessment for a unit",
+    "commit_date": "2025-05-16T06:38:01Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b4a336b1004aaba361eebd48d97e3765e66d0701"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b4a336b1004aaba361eebd48d97e3765e66d0701",
+    "commit_message": "updated the way login validation is done, fixed bug in create a timeslot as it wasn't actually saving to the database\n, and also added a logout test",
+    "commit_date": "2025-05-16T06:23:07Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3d182c07952847ba08bf300d87d1a7a104659f21"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "433d2b3a8a5557ebe5c24d389a428e67948694a5",
+    "commit_message": "Fixed bugs introduced on merge\nFixed bug where url or routes incorrectly set.\nFixed bug where some html elements are doubled up.\nFixed bug where notifications are sent for every pending request whenever compare page is opened.",
+    "commit_date": "2025-05-16T06:10:30Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ce257efd7f6ea57c94ace25f91105df63ae25422"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ce257efd7f6ea57c94ace25f91105df63ae25422",
+    "commit_message": "Merge branch 'main' into Nav-bar-inbox",
+    "commit_date": "2025-05-16T05:45:29Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "751e182c6042684bd211a88d07e912cb23caf6b5",
+      "c9e29f51a8a90e131e7d193121dc3b99da679bd8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "751e182c6042684bd211a88d07e912cb23caf6b5",
+    "commit_message": "Fixed formatting of navbar\nAlterations to global.css and base.html so inbox formatting is better.",
+    "commit_date": "2025-05-16T05:42:12Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1ea51832798a5aaeef9b800e7d9c7a0157004120"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "5fcfda3e735227c3ca048fa3b9268433eaa6b376",
+    "commit_message": "Minor bug fixes\nAdded check to save assessment that checks whether obtained score exceeds total score\nDelinking a timetable that is displayed will now remove that timetable from the list of displayed timetables\nDelink buttons have been shifted 10px to the left so it is possible to select them.",
+    "commit_date": "2025-05-16T04:34:15Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c9e29f51a8a90e131e7d193121dc3b99da679bd8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "3d182c07952847ba08bf300d87d1a7a104659f21",
+    "commit_message": "fixed the bugs in the first selenium test",
+    "commit_date": "2025-05-16T04:25:58Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a6c8c39a44a15280a38e4dcb8e529dc826594f7d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "c9e29f51a8a90e131e7d193121dc3b99da679bd8",
+    "commit_message": "fix 'partial and fully' available delete bug\n\nBug fixed related to full and partial timeslots where once assigned to be partially or fully available can't be deleted",
+    "commit_date": "2025-05-16T03:06:34Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "b47f695832e57bd8b259b9630dd96726b10bc34e",
+      "e9c44cd1e8c80b5748806153eebcf6511d5c43cd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "e9c44cd1e8c80b5748806153eebcf6511d5c43cd",
+    "commit_message": "Fixed issue where extra files were added.",
+    "commit_date": "2025-05-16T02:58:24Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f51459fd5e9e0a0f6c1a8862344ed3890cfd576f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "a6c8c39a44a15280a38e4dcb8e529dc826594f7d",
+    "commit_message": "I have created only 3 selenium tests that only checks the UI.",
+    "commit_date": "2025-05-15T17:19:54Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0f3c59d95c7797598c63b50938cea4fab546beb9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "f51459fd5e9e0a0f6c1a8862344ed3890cfd576f",
+    "commit_message": "Bug where full and partial timeslots are not deleted from the database.\nIntroduced line after deleting activity timeslots to delete full and partial timeslots.\nThis introduced bug where full and partial timeslots are not added back into the database on resaving.\nThe fix was to add full and partial cell.dataset.availability parameters when loading a saved timetable.\nAdditionally, fixed bug where selecting an activity while having a full or partial toggle active did not\nmake that toggle inactive.\nFixed by adding constants for those toggles into add_activity and then removing their .active when selecting an activity.",
+    "commit_date": "2025-05-15T15:20:19Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1a40448cb2edf052bf1f2a7d33620e7b778ceb72"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "1a40448cb2edf052bf1f2a7d33620e7b778ceb72",
+    "commit_message": "Merge branch 'main' of https://github.com/tri-tim-m-nguyen/study-plan-application",
+    "commit_date": "2025-05-15T14:45:15Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "d59959265cf969c8852dc49e4a6a9487777eda93",
+      "b47f695832e57bd8b259b9630dd96726b10bc34e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b47f695832e57bd8b259b9630dd96726b10bc34e",
+    "commit_message": "small fix to route to the home page for refactoring",
+    "commit_date": "2025-05-15T14:16:03Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "aaa50e139d44cd7a9c6afe0574a04a10f2a9ea7b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d59959265cf969c8852dc49e4a6a9487777eda93",
+    "commit_message": "Merge branch 'main' of https://github.com/tri-tim-m-nguyen/study-plan-application",
+    "commit_date": "2025-05-15T14:04:51Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "89b48b25f792828fc89e339f39c7a356a32a92a4",
+      "aaa50e139d44cd7a9c6afe0574a04a10f2a9ea7b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "89b48b25f792828fc89e339f39c7a356a32a92a4",
+    "commit_message": "I don't know why this happened, but I can't exit until I commit",
+    "commit_date": "2025-05-15T14:04:14Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "341d4bd13e2da5c87246582b0f3114ce42031a89"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "aaa50e139d44cd7a9c6afe0574a04a10f2a9ea7b",
+    "commit_message": "Unit Testing\n\nAdded Unit testing and refactoring off code",
+    "commit_date": "2025-05-15T13:59:05Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "334ed78eb8c3943dbd7da24ebfda485794315e81",
+      "0f3c59d95c7797598c63b50938cea4fab546beb9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "0f3c59d95c7797598c63b50938cea4fab546beb9",
+    "commit_message": "Reset database because bugs were introduced.",
+    "commit_date": "2025-05-15T13:54:33Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d38b1894b579ec1844c8da3bc3614458abb27d0f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "341d4bd13e2da5c87246582b0f3114ce42031a89",
+    "commit_message": "Don't use",
+    "commit_date": "2025-05-15T13:01:57Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "334ed78eb8c3943dbd7da24ebfda485794315e81"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d38b1894b579ec1844c8da3bc3614458abb27d0f",
+    "commit_message": "this is the requirements.txt that will help install the necessary y packages for the webpage",
+    "commit_date": "2025-05-15T12:15:38Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "489986bcc735eb4da33031bafe1abdb7dc9550b3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "489986bcc735eb4da33031bafe1abdb7dc9550b3",
+    "commit_message": "I have refactored the code and implementedUnit Tests.",
+    "commit_date": "2025-05-15T10:56:16Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "74568ed4dada35c65e14afdc47735f231c851de3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "1ea51832798a5aaeef9b800e7d9c7a0157004120",
+    "commit_message": "Another attempt at an inbox.\nTo be tested extensively.\nSo far, allows for accepting and rejecting requests, but may not update inbox on accept/reject",
+    "commit_date": "2025-05-15T04:54:59Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f8475b1b528c055724d22af4f5e67c97a9041537"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "334ed78eb8c3943dbd7da24ebfda485794315e81",
+    "commit_message": "Merge pull request #69 from tri-tim-m-nguyen/Autolog\n\nLogin Quality of life update",
+    "commit_date": "2025-05-15T03:37:38Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "74568ed4dada35c65e14afdc47735f231c851de3",
+      "2304d5c3d310b662f41027748280536a47c8f421"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2304d5c3d310b662f41027748280536a47c8f421",
+    "commit_message": "now makes sure that logged out users can only see the home page and also automatically logs a user into session when they create a new account",
+    "commit_date": "2025-05-15T03:08:11Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "74568ed4dada35c65e14afdc47735f231c851de3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "74568ed4dada35c65e14afdc47735f231c851de3",
+    "commit_message": "Merge pull request #68 from tri-tim-m-nguyen/Assess-Del-With-Activ\n\nBug fix for assessments",
+    "commit_date": "2025-05-15T02:50:12Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "fe9381607be486de0372aa6159aee6be90f8f600",
+      "a475ba41fa239b3428ded34a9de30778f3e1a82d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "a475ba41fa239b3428ded34a9de30778f3e1a82d",
+    "commit_message": "This fixes the bug where when a unit is deleted then an assessment of the unit would still be saved",
+    "commit_date": "2025-05-15T02:21:21Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "fe9381607be486de0372aa6159aee6be90f8f600"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "fe9381607be486de0372aa6159aee6be90f8f600",
+    "commit_message": "Bugs fixed\n\nThe bugs created by the latest merge to main has been fixed. Assessment page works, activity type shows correctly, analytics page only shows activities and compare page allows to make one request per person.",
+    "commit_date": "2025-05-14T13:37:33Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "9d1603b6453074a3d784b315b8a0d2d57804e67d",
+      "ef313be7a81875db9a8ca1c33dffbbc4e2899408"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ef313be7a81875db9a8ca1c33dffbbc4e2899408",
+    "commit_message": "Modify the error message for accepted request.\nNow have separate error messages for having a pending request, and having an accepted request.",
+    "commit_date": "2025-05-14T13:31:51Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "9197e697def2aa8599eed39cfdbc20bc1d0f1ac4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "9197e697def2aa8599eed39cfdbc20bc1d0f1ac4",
+    "commit_message": "Now can't request already shared timetable.\nFixed bug where a user could request a timetable already shared with them.",
+    "commit_date": "2025-05-14T13:21:52Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4240138443acee12afd697f1d2f920ef76d0948a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "4240138443acee12afd697f1d2f920ef76d0948a",
+    "commit_message": "Minor error from wrong column name\nUsed data.userid rather than data.user_id leading to some unexpected behaviour",
+    "commit_date": "2025-05-14T09:09:18Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2c2921c7653bb6f4a2e0bd25bb8c07f1ee8f08a5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2c2921c7653bb6f4a2e0bd25bb8c07f1ee8f08a5",
+    "commit_message": "Analytics fix\nEnsure that timeslots that are listed with activity_no full or partial are not\nincluded within the list of timeslots for the analytics page.",
+    "commit_date": "2025-05-14T08:53:10Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "a6f1f21ea72e6cbf1ce86bccfc53cc3b4fe6501a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "a6f1f21ea72e6cbf1ce86bccfc53cc3b4fe6501a",
+    "commit_message": "Removed redundant loop\nThis loop was preventing the app from saving the activity_type",
+    "commit_date": "2025-05-14T08:39:51Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "5a82c09af2de59b8ae3f03f11b373544cef5dc39"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "5a82c09af2de59b8ae3f03f11b373544cef5dc39",
+    "commit_message": "Fixed issue where activity_type is not saved",
+    "commit_date": "2025-05-14T08:34:51Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3fbbf897a12dc5de4baa09c889305cfe161aed18"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "224d1605dd1753129fd8a59f5b3004e628b26986",
+    "commit_message": "Merge branch 'main' into comments",
+    "commit_date": "2025-05-14T03:12:37Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "b740b835c100b1983c9d08a70e6353e8397f8cc0",
+      "9d1603b6453074a3d784b315b8a0d2d57804e67d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b740b835c100b1983c9d08a70e6353e8397f8cc0",
+    "commit_message": "Removed some comments",
+    "commit_date": "2025-05-14T02:49:06Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "79dfd42dce8663085fe8c2c731c97f004599fde1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "79dfd42dce8663085fe8c2c731c97f004599fde1",
+    "commit_message": "I have removed unnecessary comments",
+    "commit_date": "2025-05-14T02:29:18Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "76199c9f2592f2de1032b26a74dccde6c364d43a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "9d1603b6453074a3d784b315b8a0d2d57804e67d",
+    "commit_message": "Merge pull request #59 from tri-tim-m-nguyen/merge-modify-pages",
+    "commit_date": "2025-05-13T18:29:18Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "6d3825342ad726e0ad32ea3bcd02d1cfd2fcbb97",
+      "3fbbf897a12dc5de4baa09c889305cfe161aed18"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "3fbbf897a12dc5de4baa09c889305cfe161aed18",
+    "commit_message": "Minor Comments",
+    "commit_date": "2025-05-13T18:00:54Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c69b8b5e187b4071deed590bd4254203a005be4e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "f8475b1b528c055724d22af4f5e67c97a9041537",
+    "commit_message": "Inbox in nav bar attempt",
+    "commit_date": "2025-05-13T17:59:15Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c69b8b5e187b4071deed590bd4254203a005be4e"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "76199c9f2592f2de1032b26a74dccde6c364d43a",
+    "commit_message": "I have added comments to all the files and some code lines were removed as they were repeated and to match the HTML standards.",
+    "commit_date": "2025-05-13T15:51:02Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6d3825342ad726e0ad32ea3bcd02d1cfd2fcbb97"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "c69b8b5e187b4071deed590bd4254203a005be4e",
+    "commit_message": "Minor change based on comments",
+    "commit_date": "2025-05-12T11:59:51Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ccec0f233c2cb26442b097aa4f4e4bd5c2d0e741"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ccec0f233c2cb26442b097aa4f4e4bd5c2d0e741",
+    "commit_message": "Final successful merge\nFinal successful merge with no bugs as far as I can tell.\nPartial and Full availability special timeslots\nMultiple timetables displayed at once.",
+    "commit_date": "2025-05-12T11:57:23Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6d3825342ad726e0ad32ea3bcd02d1cfd2fcbb97"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6d3825342ad726e0ad32ea3bcd02d1cfd2fcbb97",
+    "commit_message": "CSRF protection and SafeFetch",
+    "commit_date": "2025-05-11T08:40:35Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "68dcec6b0da5166a14ebf7529db7e0e96bbe0579",
+      "13ae491bd322c6d21a2664ab4f70547d05cc0de1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "13ae491bd322c6d21a2664ab4f70547d05cc0de1",
+    "commit_message": "Ensures that all fetch requests use safeFetch and all use csrf protection",
+    "commit_date": "2025-05-11T07:26:15Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ae1b94eb82353b4e68ef42d28873ed37c8c8ba1b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ae1b94eb82353b4e68ef42d28873ed37c8c8ba1b",
+    "commit_message": "moved all java script files to static/js for easier navigation",
+    "commit_date": "2025-05-11T07:21:49Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "68dcec6b0da5166a14ebf7529db7e0e96bbe0579"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "68dcec6b0da5166a14ebf7529db7e0e96bbe0579",
+    "commit_message": "Separation of javascript files",
+    "commit_date": "2025-05-10T04:50:54Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "e3c75ffd9d6423c5884238c6c627719141509d6c",
+      "cab0d092555dddec0fab6068638748cbed97bc1a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "e3c75ffd9d6423c5884238c6c627719141509d6c",
+    "commit_message": "Restrict assessment input to 2.DP\n\nUsers are only able to put in values up to 2 DP when creating an assessment",
+    "commit_date": "2025-05-10T04:43:17Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "7f9731d43e076893649a62a14e22a0604b15e1bb",
+      "bd86044d50bd1720910a86f822d16b76a2af0ef1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "cab0d092555dddec0fab6068638748cbed97bc1a",
+    "commit_message": "this seperates the code so that timetable.js only has code that is shared between the two pages compare and create and now both those pages have dedicated js files",
+    "commit_date": "2025-05-10T04:39:30Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7f9731d43e076893649a62a14e22a0604b15e1bb"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "bd86044d50bd1720910a86f822d16b76a2af0ef1",
+    "commit_message": "I have restricted the inputs to 2 decimal places.",
+    "commit_date": "2025-05-10T04:05:16Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "656b8a0015bfaec0aa710282b09b89103f6d26d1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "7f9731d43e076893649a62a14e22a0604b15e1bb",
+    "commit_message": "Fixed inconsistency in the bin icon\n\nBin icon consistancy",
+    "commit_date": "2025-05-10T04:02:34Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "dbc4617486c9631aa0bb7e16969b3f8c236faa18",
+      "ed5c8fe9dfd09fe992a7cb3d680245bd8b0c2f92"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ed5c8fe9dfd09fe992a7cb3d680245bd8b0c2f92",
+    "commit_message": "changed the bin icon on the assessments page to match with the other bin icons across the website",
+    "commit_date": "2025-05-10T03:53:15Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "dbc4617486c9631aa0bb7e16969b3f8c236faa18"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "dbc4617486c9631aa0bb7e16969b3f8c236faa18",
+    "commit_message": "Input Validation for Assessments page\n\nThis fixes the bug where users were able to add negative values in the assessments page.\nUsers are now only able to input values between 0 and 100 including floating values if they don't get whole number marks",
+    "commit_date": "2025-05-10T03:34:34Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "bc464776472edad1e8038a7a55d721e74d6d5f09",
+      "656b8a0015bfaec0aa710282b09b89103f6d26d1"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "656b8a0015bfaec0aa710282b09b89103f6d26d1",
+    "commit_message": "I have validated the inputs(obtained score, total score and weightage) so that it does not accept negative values.",
+    "commit_date": "2025-05-09T18:52:01Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "bde42ae0959bb2bb07d574b92f240453b7f35f31"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "bc464776472edad1e8038a7a55d721e74d6d5f09",
+    "commit_message": "Saving assessments bug\n\nI have fixed the bug in saving timetable.",
+    "commit_date": "2025-05-09T18:20:38Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "acab0fdf922f25362097aa7fd1e72c9df34758a4",
+      "bde42ae0959bb2bb07d574b92f240453b7f35f31"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "acab0fdf922f25362097aa7fd1e72c9df34758a4",
+    "commit_message": "Assessment alanysis and better features for Assessments page\n\nAssessment analysis \nShould also fix the bug of assessments not being saved",
+    "commit_date": "2025-05-09T18:17:34Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "583823e50e8476539f9edda80f70a475c7afd670",
+      "07e328c654f63ea52ccc0f47351e2562a8e82281"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "bde42ae0959bb2bb07d574b92f240453b7f35f31",
+    "commit_message": "I have fixed the bug in saving timetable.",
+    "commit_date": "2025-05-09T18:12:05Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "158d5a27591fc8755bf46e2c0bab93e27d0629cc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "583823e50e8476539f9edda80f70a475c7afd670",
+    "commit_message": "Css fix for Create timetable page & redundant code removed\n\nModified create timetable page so the word \"normal\" in the drop down for the activity type now fully appears on screen and is not cut off and also removes the redundant and non functional code where user can add assessments on the create timetable page.",
+    "commit_date": "2025-05-09T17:35:18Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "2384ef998a90e24a38a14f349e8dd223962cd521",
+      "667defef9679a969b220dd6cffe54de3b060da4b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2384ef998a90e24a38a14f349e8dd223962cd521",
+    "commit_message": "Assessment reordering and editing Feature and css fixes\n\nModified assessments page where users now can rearrange the assessments in whatever order they wish and they are able to edit already uploaded assessments.",
+    "commit_date": "2025-05-09T17:32:29Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "690c4ff71bcb07228b54e7e785aa635f14bc7152",
+      "158d5a27591fc8755bf46e2c0bab93e27d0629cc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "07e328c654f63ea52ccc0f47351e2562a8e82281",
+    "commit_message": "I have created a basic analsis graph for the assessments.",
+    "commit_date": "2025-05-09T16:45:43Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "158d5a27591fc8755bf46e2c0bab93e27d0629cc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "667defef9679a969b220dd6cffe54de3b060da4b",
+    "commit_message": "i have fixed the spacing issue of activities dropdown and removed the assessments from create timetable page.",
+    "commit_date": "2025-05-09T16:14:40Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4d8a018a55754e7a7b6dc6fcadac3d75b49c8993"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "158d5a27591fc8755bf46e2c0bab93e27d0629cc",
+    "commit_message": "I have updated the assessments view where it is possible to reorder the assessment rows.",
+    "commit_date": "2025-05-09T15:51:29Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "bce516761568412f187cf224b92aa0d11c4a621f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "bce516761568412f187cf224b92aa0d11c4a621f",
+    "commit_message": "Trash icon has been modified, up/down icon for inputs modified and edit option for the assessments has been included.",
+    "commit_date": "2025-05-09T14:57:17Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "53d405b83fef5ee8c35da0fd83fa716944412e08"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "690c4ff71bcb07228b54e7e785aa635f14bc7152",
+    "commit_message": "Activity drop down \n\nBetter UI to switch activities from being normal and being able to select the activity as a unit",
+    "commit_date": "2025-05-09T13:20:43Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "a4bb8f3f73fdee6b314a96d62180b5bc0d847a79",
+      "4d8a018a55754e7a7b6dc6fcadac3d75b49c8993"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "4d8a018a55754e7a7b6dc6fcadac3d75b49c8993",
+    "commit_message": "Modified the activities and included a drop down for each activity to select a unit or normal activity and removed the common dropdown.",
+    "commit_date": "2025-05-09T13:11:40Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0c8002a7e362c93581e9a5a688a814ab4213fdcd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "a4bb8f3f73fdee6b314a96d62180b5bc0d847a79",
+    "commit_message": "Username validation\n\nValidation for username added, that allows letters, numbers and special characters.",
+    "commit_date": "2025-05-09T13:05:27Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "1f34c7d4630ca2e0f1e6204b884dfd327adf42df",
+      "ea781262d8f8cb368ba9b00eec56eb894c1ccacd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ea781262d8f8cb368ba9b00eec56eb894c1ccacd",
+    "commit_message": "this adds validation when creating a new username that will make sure the username is unique, only allows letters and numbers and the only special keys allowed are _ and -",
+    "commit_date": "2025-05-09T11:45:42Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1f34c7d4630ca2e0f1e6204b884dfd327adf42df"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "1f34c7d4630ca2e0f1e6204b884dfd327adf42df",
+    "commit_message": "Added Assessments.css and Update to Assessments.js\n\nThis PR will fix small issues on the assessments page with how things are displayed and will fix the css styling issues that were discussed on call.",
+    "commit_date": "2025-05-09T11:01:45Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "06cad5d9de9108fb08082d65df7d7c529b068aa0",
+      "53d405b83fef5ee8c35da0fd83fa716944412e08"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "06cad5d9de9108fb08082d65df7d7c529b068aa0",
+    "commit_message": "Bug Fix for compare timetable page\n\nView timetable issue fixed where users would try and view their timetable in compare timetable page and the timetable wont generate properly",
+    "commit_date": "2025-05-09T10:54:09Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "cf846680903e76eb4665fb5a0d75aad6ff8a78a4",
+      "0c8002a7e362c93581e9a5a688a814ab4213fdcd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "53d405b83fef5ee8c35da0fd83fa716944412e08",
+    "commit_message": "I have added an assessment.css to make the assessment page interactive and I have fixed uneven column headers, included a trash icon to remove the an assessment data and changed the column headings.",
+    "commit_date": "2025-05-09T10:52:02Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8cd97522e1e0fdbac6665a0ff2c34febd65e3491"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "0c8002a7e362c93581e9a5a688a814ab4213fdcd",
+    "commit_message": "The issue that prevented viewing my timetable in compare page has been fixed.",
+    "commit_date": "2025-05-09T09:08:27Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "be1fc5937b1b20f0e2f692107d13ca8f41036f96"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "cf846680903e76eb4665fb5a0d75aad6ff8a78a4",
+    "commit_message": "Removal of View Page\n\nDeletes the view page that was not used",
+    "commit_date": "2025-05-09T08:45:20Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "7078d7d1595e2875dc5bb5415db83ee470cf59b8",
+      "8cd97522e1e0fdbac6665a0ff2c34febd65e3491"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "7078d7d1595e2875dc5bb5415db83ee470cf59b8",
+    "commit_message": "Merge pull request #40 from tri-tim-m-nguyen/darkmode\n\nFixed dark mode",
+    "commit_date": "2025-05-09T08:41:27Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "177c7c5af000a5a9d3d95f5bd6d0033d265e8fa8",
+      "eecfc8586b0f102ddc7a8739f8aaac79123eefb2"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "eecfc8586b0f102ddc7a8739f8aaac79123eefb2",
+    "commit_message": "updated most of the css to better incorporate darkmode",
+    "commit_date": "2025-05-09T08:34:30Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "177c7c5af000a5a9d3d95f5bd6d0033d265e8fa8"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "8cd97522e1e0fdbac6665a0ff2c34febd65e3491",
+    "commit_message": "The view page has been removed.",
+    "commit_date": "2025-05-09T08:30:39Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d8d71711c5f47d721411409463ae7d94eb071bb0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "177c7c5af000a5a9d3d95f5bd6d0033d265e8fa8",
+    "commit_message": "Assessment Page initial code\n\nI have added functionalities to the assessment page",
+    "commit_date": "2025-05-09T08:15:54Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "bdf3240ab7ccdd0b9fec27c77f0f7c2f3f78f9c1",
+      "d8d71711c5f47d721411409463ae7d94eb071bb0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d8d71711c5f47d721411409463ae7d94eb071bb0",
+    "commit_message": "Made changes to fix the bug that occured in viewing the assessments.",
+    "commit_date": "2025-05-09T07:16:32Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "fd0db179cfe21d380f9a92f2f69cd2c1f65353f4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "fd0db179cfe21d380f9a92f2f69cd2c1f65353f4",
+    "commit_message": "I have updated the assessments page, to take only one set of input and display and entire summary of all assessments that has been recorded.",
+    "commit_date": "2025-05-09T06:56:59Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b397d4d72c20ab038dce62d27d7b590bc6e8086b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b397d4d72c20ab038dce62d27d7b590bc6e8086b",
+    "commit_message": "I have added functionality to the assessment page, the page allows to input the assessment details, after the details are input it shows a summary view of the data that was input.",
+    "commit_date": "2025-05-09T06:27:14Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3d986d54b9223a1af24079eee00f0a6956f8e23f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "bdf3240ab7ccdd0b9fec27c77f0f7c2f3f78f9c1",
+    "commit_message": "New Assessment page\n\nCreated a non-functioning assessments page in the navbar",
+    "commit_date": "2025-05-09T03:44:06Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "2794a306669a6181d95c499e45a98845a08227d9",
+      "3d986d54b9223a1af24079eee00f0a6956f8e23f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "3d986d54b9223a1af24079eee00f0a6956f8e23f",
+    "commit_message": "Created a non-functioning assessments page in the navbar",
+    "commit_date": "2025-05-09T03:12:01Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "be1fc5937b1b20f0e2f692107d13ca8f41036f96"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2794a306669a6181d95c499e45a98845a08227d9",
+    "commit_message": "Unit Activities\n\nAdditional feature of assigning up to 4 units out of 10 activities created",
+    "commit_date": "2025-05-06T08:07:13Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "f65755d6c54abf447a3e2431109e381e7b68680f",
+      "be1fc5937b1b20f0e2f692107d13ca8f41036f96"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "be1fc5937b1b20f0e2f692107d13ca8f41036f96",
+    "commit_message": "Fixed the syntax error in timetable.js",
+    "commit_date": "2025-05-06T07:46:10Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "80dfe062c099c15a94ad4bd726df9eab426fadbf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "80dfe062c099c15a94ad4bd726df9eab426fadbf",
+    "commit_message": "I have added an additional feature to create upto 4 units out of the 10 activities in the create timetable page. I have included Activity Type in the Database and timetable.",
+    "commit_date": "2025-05-06T07:17:50Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f65755d6c54abf447a3e2431109e381e7b68680f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "f65755d6c54abf447a3e2431109e381e7b68680f",
+    "commit_message": "Merge pull request #26 from tri-tim-m-nguyen/Analytics-Skel\n\nLooks like what we discussed in the earlier meeting.",
+    "commit_date": "2025-05-04T10:29:27Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "0930d67b3df8a55d077234615680a2c5e2c05923",
+      "6cd3118dfec2828af4e059671469c632789bc5bc"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6cd3118dfec2828af4e059671469c632789bc5bc",
+    "commit_message": "This is the analytics page which displays how many hours a person spend on their activities",
+    "commit_date": "2025-05-04T06:35:16Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0930d67b3df8a55d077234615680a2c5e2c05923"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "0930d67b3df8a55d077234615680a2c5e2c05923",
+    "commit_message": "Merge pull request #22 from tri-tim-m-nguyen/User-Compare-Req\n\nUser compare timetable feature",
+    "commit_date": "2025-05-04T03:57:02Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "c6a95d63e6e027d6b0151e44354000aa48819fed",
+      "9e195390f57137efd94e59788004e267d8d69fd6"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "9e195390f57137efd94e59788004e267d8d69fd6",
+    "commit_message": "this feature allows users to delink their timetables so that if one of them wants to stop sharing then they can",
+    "commit_date": "2025-05-04T02:59:04Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "469414b422ca40f013657b3bb6e68cea5e3e0f68"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "469414b422ca40f013657b3bb6e68cea5e3e0f68",
+    "commit_message": "This enables users to now send viewing requests where on the compare page users can request another users timetable and on the requested users end will get a notification in the pending request section, where once they accept the request on the compare page both users can switch back and forth between their timetables",
+    "commit_date": "2025-05-04T02:45:33Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c6a95d63e6e027d6b0151e44354000aa48819fed"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "c6a95d63e6e027d6b0151e44354000aa48819fed",
+    "commit_message": "Merge pull request #21 from tri-tim-m-nguyen/Activities-Database-Link\n\nLink Activities to Database",
+    "commit_date": "2025-05-03T09:50:27Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "4c768bcaf969280e72bc9b3ed3f45b93c1bdf967",
+      "054bbca430de7081a49b203b9c5041b228f94b93"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "054bbca430de7081a49b203b9c5041b228f94b93",
+    "commit_message": "This now links cells to their appropriate activity where if a new activity is mapped to a cell on the timetable the old activity is dissasociated and the cell it took up will no longer be saved in the database and will be mapped to the new activity",
+    "commit_date": "2025-05-03T09:21:02Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b36f50c07aa915688b2076e97b83f4724b00ea20"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "b36f50c07aa915688b2076e97b83f4724b00ea20",
+    "commit_message": "This will link activites to the database where if the activity is deleted then it will also be deleted from the database. This feature also makes it so that the data is fetched when a page is loaded and rendered on the timetable",
+    "commit_date": "2025-05-03T06:37:53Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "4c768bcaf969280e72bc9b3ed3f45b93c1bdf967"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "4c768bcaf969280e72bc9b3ed3f45b93c1bdf967",
+    "commit_message": "User timetable data save\n\nthis allows users to now save their activities and timeslots for each activity",
+    "commit_date": "2025-05-03T03:37:23Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "9b588b95e6a0c37f58b7fbe4cfb3ae52682820c8",
+      "e1bbd724a50da8cca7d992162f6f85b037e938d4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "9b588b95e6a0c37f58b7fbe4cfb3ae52682820c8",
+    "commit_message": "Merge pull request #19 from tri-tim-m-nguyen/Activities-Link-Feature\n\nDeselect timeslots and delete activities",
+    "commit_date": "2025-05-03T02:52:10Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "f788fa5840a99e5dd7ae875c3d71c4fa300eab4b",
+      "6ac7269cdc50558c6b5571d8b6c7db58bc7fc257"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "e1bbd724a50da8cca7d992162f6f85b037e938d4",
+    "commit_message": "Gitignore file has been modified to ignore the database",
+    "commit_date": "2025-05-03T02:42:35Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d0be1aa4161e3db6449264d919c082a464c1d079"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d0be1aa4161e3db6449264d919c082a464c1d079",
+    "commit_message": "Timetable.js and create.html has been modified to get the data to store in the database",
+    "commit_date": "2025-05-03T02:40:11Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "df7a31902ca8ba6b2bcec7116e30541bb3d8cf82"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "df7a31902ca8ba6b2bcec7116e30541bb3d8cf82",
+    "commit_message": "Save timetable route has been created to add data from create timetable to database",
+    "commit_date": "2025-05-03T02:35:46Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "27724b7a0d492a3ca406d77464e3e8ff1f623ce9"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6ac7269cdc50558c6b5571d8b6c7db58bc7fc257",
+    "commit_message": "this allows timeslots to be deselected by activities and clears all timslots that an activity has linked to when deleted",
+    "commit_date": "2025-05-03T02:30:54Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f788fa5840a99e5dd7ae875c3d71c4fa300eab4b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "27724b7a0d492a3ca406d77464e3e8ff1f623ce9",
+    "commit_message": "I have created two additional tables called UserActivity and ActivityTimeSlot to data obtained from create timetable",
+    "commit_date": "2025-05-03T02:29:55Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "f788fa5840a99e5dd7ae875c3d71c4fa300eab4b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "f788fa5840a99e5dd7ae875c3d71c4fa300eab4b",
+    "commit_message": "logout feature\n\nLogout",
+    "commit_date": "2025-05-02T12:15:28Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "d9708f31212b1851d1761a4e26927456d7b69820",
+      "c4a5636d35e175762126bd3469d04789c50aaf3c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d9708f31212b1851d1761a4e26927456d7b69820",
+    "commit_message": "Database\n\nI have created a database with a table UserDetails to store the student's username and passwords.",
+    "commit_date": "2025-05-02T12:15:01Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "2e10b074c7fee7a1a7abbf4931c731d64bddccec",
+      "be4c36681547086b6a0bf12f9a290a356aca62ac"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "c4a5636d35e175762126bd3469d04789c50aaf3c",
+    "commit_message": "I have added a logout feature, that allows users logged into the application to logout. Another user cannot login or register until the previous user has logged out of the system.",
+    "commit_date": "2025-05-02T09:18:31Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "952b41b28089f17f5fa6662d907dc9bdccf9b78a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "be4c36681547086b6a0bf12f9a290a356aca62ac",
+    "commit_message": "Merge branch 'main' into UserDetailsDatabase",
+    "commit_date": "2025-05-02T07:47:51Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "952b41b28089f17f5fa6662d907dc9bdccf9b78a",
+      "2e10b074c7fee7a1a7abbf4931c731d64bddccec"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "952b41b28089f17f5fa6662d907dc9bdccf9b78a",
+    "commit_message": "I have created a database with a table UserDetails to store the student's username and passwords. The Sign up page uses the database to record student's usernames and password. The Login page uses the database to authenticate the students.",
+    "commit_date": "2025-05-02T07:26:56Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "687ec903db40e39f46b20fba32cbdbc07362e08a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2e10b074c7fee7a1a7abbf4931c731d64bddccec",
+    "commit_message": "Revert PR 14 \n\ncleans the timetable.css as it had unnecessary code",
+    "commit_date": "2025-05-02T07:17:23Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "11b04fd1067076724bfddccb79dbdcee51ade9b3",
+      "6f8a80e7d424069be790ec982044432b7aa00ce4"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6f8a80e7d424069be790ec982044432b7aa00ce4",
+    "commit_message": "Merge branch 'main' into revert-14-Modified-Create-timetable",
+    "commit_date": "2025-05-02T07:16:29Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "d1f9a392fd2e62e7a90b20ca4b81b4aa014ac576",
+      "11b04fd1067076724bfddccb79dbdcee51ade9b3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "11b04fd1067076724bfddccb79dbdcee51ade9b3",
+    "commit_message": "Merge pull request #16 from tri-tim-m-nguyen/Activities-Feature\n\nAdd activities feature",
+    "commit_date": "2025-05-02T07:00:18Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "d7562513dc959cc648dcd8d4b52ef94d76cd22bf",
+      "abaa9e41f6684349b57bbcae384b924aa94fe52c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "abaa9e41f6684349b57bbcae384b924aa94fe52c",
+    "commit_message": "Merge branch 'main' into Activities-Feature",
+    "commit_date": "2025-05-02T06:27:19Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "54db8978d98cc400b140c53a41161415deacf0e3",
+      "d7562513dc959cc648dcd8d4b52ef94d76cd22bf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "54db8978d98cc400b140c53a41161415deacf0e3",
+    "commit_message": "added the feature where colors of a activity are mapped so that when a color is updated then the colors in the cells of the timetable are updated accordingly",
+    "commit_date": "2025-05-02T04:20:44Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6629e500e401619ff1923aeadc3a0f7c17431e87"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6629e500e401619ff1923aeadc3a0f7c17431e87",
+    "commit_message": "on the create page the 'activity feature' is added where users can create up to 10 activities where they can rename the activity by double clicking it, delete it by hovering over it and pressing delete, and can change the color of the activity by pressing on the color box, this will also add the feature of filling in cells in the timetable with the color of the activity",
+    "commit_date": "2025-05-02T04:14:53Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "cb867c1555e5a57b47955dd73467b9db75fffdc3"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d1f9a392fd2e62e7a90b20ca4b81b4aa014ac576",
+    "commit_message": "Revert \"Modified create timetable page\"",
+    "commit_date": "2025-05-02T04:14:04Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d7562513dc959cc648dcd8d4b52ef94d76cd22bf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "d7562513dc959cc648dcd8d4b52ef94d76cd22bf",
+    "commit_message": "Merge pull request #14 from tri-tim-m-nguyen/Modified-Create-timetable\n\nModified create timetable page",
+    "commit_date": "2025-05-02T04:05:59Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "cb867c1555e5a57b47955dd73467b9db75fffdc3",
+      "5a177db9e32008d2274f60401435045e9a274fac"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "5a177db9e32008d2274f60401435045e9a274fac",
+    "commit_message": "Modified so instead of changing colours based on list,\nchange toggle mode of event buttons in timetable.css",
+    "commit_date": "2025-05-02T03:16:34Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "bf5851c7a9dd641d218c19282d55172cba160bbf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "cb867c1555e5a57b47955dd73467b9db75fffdc3",
+    "commit_message": "the secret key is no longer available in plain code and will now run from the env",
+    "commit_date": "2025-05-02T02:12:23Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "fb88158198c8e60f02f1b39ea6d382af734f2762"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "bf5851c7a9dd641d218c19282d55172cba160bbf",
+    "commit_message": "Added form to add events\nAdded dynamic event container containing toggles for each event\nAdded delete functionality for events",
+    "commit_date": "2025-05-01T19:05:44Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "fb88158198c8e60f02f1b39ea6d382af734f2762"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "fb88158198c8e60f02f1b39ea6d382af734f2762",
+    "commit_message": "Merge pull request #13 from tri-tim-m-nguyen/merge-css-and-viewpage\n\nInitial creation of application interfaces",
+    "commit_date": "2025-05-01T12:06:01Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "8d8543c2c7ccdcb6cc5b348cdbc787c0a6427263",
+      "687ec903db40e39f46b20fba32cbdbc07362e08a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "687ec903db40e39f46b20fba32cbdbc07362e08a",
+    "commit_message": "Removed pycache and .venv folders in preparation\nfor pull request into main",
+    "commit_date": "2025-04-30T09:34:22Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "db2fd48312c397f2f1cac93bef0240aaa31d5f3a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "db2fd48312c397f2f1cac93bef0240aaa31d5f3a",
+    "commit_message": "Updated gitignore so that it ignores venv",
+    "commit_date": "2025-04-30T09:25:11Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1b6bb79312cec7f1f938d9e7449c99a7a6d5c85d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "1b6bb79312cec7f1f938d9e7449c99a7a6d5c85d",
+    "commit_message": "made a new file called timetable.html which will hold the block of code for the timetable that can just be imported easily into compare, create and view.html",
+    "commit_date": "2025-04-28T13:05:12Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "806d2d5fc5c9f2b03bcd4314d8539377447976db"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "806d2d5fc5c9f2b03bcd4314d8539377447976db",
+    "commit_message": "have resolved all merge conflicts between the view-page-make branch and the new-css-features branch",
+    "commit_date": "2025-04-28T12:43:22Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "3c6facdc2dd828e20c872e44bbc6a1452d53b2cd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "3c6facdc2dd828e20c872e44bbc6a1452d53b2cd",
+    "commit_message": "merging both the new css features branch and the view page html branch",
+    "commit_date": "2025-04-28T04:03:36Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ebb7dabf058dfe57488b6146757c669fc3b1b8b7"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ebb7dabf058dfe57488b6146757c669fc3b1b8b7",
+    "commit_message": "Merge branch 'view-page-make' into merge-css-and-viewpage",
+    "commit_date": "2025-04-28T04:02:13Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 2,
+    "commit_parents": [
+      "2822ca3b1f72725feef6ca842e751269b66e08d9",
+      "ea670946493cf77824986eb6f24abbd868dd2913"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "ea670946493cf77824986eb6f24abbd868dd2913",
+    "commit_message": "Initialised view, create and compare pages.\nAlso added js and css files for them.",
+    "commit_date": "2025-04-28T03:34:28Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "498f3f5d47c0d8dc642035326aaa2b92890e89de"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "2822ca3b1f72725feef6ca842e751269b66e08d9",
+    "commit_message": "have changed info on the homepage where each info box now when prnow when pressed will drop down with further information, have also added a new info box called 'How to start' with basic instructions on how to use the website",
+    "commit_date": "2025-04-28T03:27:36Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8a3d5f3d5439c50372966ba2babca14a60a4ff27"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "8a3d5f3d5439c50372966ba2babca14a60a4ff27",
+    "commit_message": "have swapped the sun and moon image on the theme switch so that the sun is on the right and moon is on the left, have also then implemented the theme switch to be universal in the nav bar so it is now visible on all pages, have also added dark mode dependancies for login and sign up page and finally made it so that the applied theme is saved locally so that you can go to a new page and still have the same theme as set before",
+    "commit_date": "2025-04-27T15:39:39Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "77644f50a166613980e96e5dafdbca3712f22bbe"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "77644f50a166613980e96e5dafdbca3712f22bbe",
+    "commit_message": "redownloaded the login.html file I deleted in the latest push from the commit e14c5cc33a4e62fa72ca233c31e8661bccd77b90, I have also added a toggle on the main page in the nav bar that will allow users to switch from light to dark mode themes and have aligned the header on the home page with all other elements",
+    "commit_date": "2025-04-27T09:46:42Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0ac5202106c34f776b1b30e7dd65f9d86bb56768"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "0ac5202106c34f776b1b30e7dd65f9d86bb56768",
+    "commit_message": "added a hyperlink on the login page to the signup page if users don't have an account and vise versa for users that do have an account",
+    "commit_date": "2025-04-26T18:42:25Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e14c5cc33a4e62fa72ca233c31e8661bccd77b90"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "e14c5cc33a4e62fa72ca233c31e8661bccd77b90",
+    "commit_message": "I have added a global.css file which will help keep consistant styles throughout pages for all generic things such as fonts, I have also added a accounts_log.css file which provides base css for the login and signup page centering all inputs boxes and buttons",
+    "commit_date": "2025-04-26T18:28:09Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8d8543c2c7ccdcb6cc5b348cdbc787c0a6427263"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "8d8543c2c7ccdcb6cc5b348cdbc787c0a6427263",
+    "commit_message": "Minor update to signup",
+    "commit_date": "2025-04-19T17:29:54Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e9edb9b95ba6fa6226751c7af1d76775546ee851"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "e9edb9b95ba6fa6226751c7af1d76775546ee851",
+    "commit_message": "I have updated the signup() function for the signup page",
+    "commit_date": "2025-04-19T17:22:48Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "064e487192b091bb5cd152f1b63ef45373820c8b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "064e487192b091bb5cd152f1b63ef45373820c8b",
+    "commit_message": "I have included SignUpForm for the SignUp page, along with validations for password",
+    "commit_date": "2025-04-19T17:20:22Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "692dc9783764c9d6cdc2be659f4027ec1bc08cfa"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "692dc9783764c9d6cdc2be659f4027ec1bc08cfa",
+    "commit_message": "I have created a signup page and included registration with username, password and password confirmation. In addition, I have included bootstrap styling of alert/flash message",
+    "commit_date": "2025-04-19T17:13:15Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "12417487c3d511eb9ccb532976a01c02fbb92509"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "12417487c3d511eb9ccb532976a01c02fbb92509",
+    "commit_message": "I have updated the base.html page with bootstrap content for index.html page. I have included a navigation bar to home page, which includes home, create, view and compare section. Also, I have added the Login and Register to the navbar.",
+    "commit_date": "2025-04-19T17:09:24Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "534e6df9a7ac744b2f62caa2e19d6263bb921028"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "534e6df9a7ac744b2f62caa2e19d6263bb921028",
+    "commit_message": "I have included About and Purpose section for the index.html(Home) page",
+    "commit_date": "2025-04-19T17:04:15Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "de45d638e1d2b1ecee2ce4ec81b98a337ed5c311"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "de45d638e1d2b1ecee2ce4ec81b98a337ed5c311",
+    "commit_message": "I have included a secret key inorder to fix the internal server error raised when opening the login/Sign Up page, now it opens without issues",
+    "commit_date": "2025-04-19T16:58:31Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "94f1a34d7d3b5bd8c4a169e798fe888c99f7ce94"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "498f3f5d47c0d8dc642035326aaa2b92890e89de",
+    "commit_message": "Shaped more of the base template and CSS style.\nParticularly, the navbar.",
+    "commit_date": "2025-04-18T05:01:36Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "94f1a34d7d3b5bd8c4a169e798fe888c99f7ce94"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "94f1a34d7d3b5bd8c4a169e798fe888c99f7ce94",
+    "commit_message": "Initialise Flask Templates.\nstyle.css forms style of base.html\nbase.html is base template for all pages\nindex.html is home page with information about application\nlogin.html is login page\nsignup.html is signup page\ncreate.html is the interface for creating a new study plan\nview.html is the interface for viewing a generated study plan\ncompare.html is the interface for comparing two study plans",
+    "commit_date": "2025-04-17T08:33:31Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "tri-tim-m-nguyen",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "640263a86dafce7fb210b286d78c82eb11284ecf"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "640263a86dafce7fb210b286d78c82eb11284ecf",
+    "commit_message": "syncing the read me and the license file for start",
+    "commit_date": "2025-04-11T04:07:50Z",
+    "commit_author_login": "RayanTarawneh",
+    "commit_committer_login": "RayanTarawneh",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6054043b48eba14d5e3a4ccf7a92b2549ff2d468"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "darkmode-fix",
+    "commit_sha": "6054043b48eba14d5e3a4ccf7a92b2549ff2d468",
+    "commit_message": "Initial commit",
+    "commit_date": "2025-04-08T15:19:53Z",
+    "commit_author_login": "tri-tim-m-nguyen",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "main",
+    "commit_sha": "4f94ff0ab6eaade3847cd3e96cc15ae3897f7966",
+    "commit_message": "first commit",
+    "commit_date": "2025-08-14T07:46:28Z",
+    "commit_author_login": "KavishaniVimalathasan",
+    "commit_committer_login": "KavishaniVimalathasan",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "2ff2c2b8505646166b4030bc3265ea101a3083cd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "main",
+    "commit_sha": "2ff2c2b8505646166b4030bc3265ea101a3083cd",
+    "commit_message": "I have added a basic template for home page using flask",
+    "commit_date": "2025-04-18T04:12:46Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "76281c9e99b0c9a222546b58c0ae14c93e16ff96"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 962723500,
+    "branch_name": "main",
+    "commit_sha": "76281c9e99b0c9a222546b58c0ae14c93e16ff96",
+    "commit_message": "msg",
+    "commit_date": "2025-03-28T02:12:37Z",
+    "commit_author_login": "",
+    "commit_committer_login": "",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "a066601c372d837992bbbea4996af99b54ea5835",
+    "commit_message": "Simplify the tutorial\n\nAdd the objective of the tutorial and explain the system requirements",
+    "commit_date": "2023-05-30T08:16:22Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "82bc4cb40e0707c3d00ead9249ffec033b9cbe15"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "82bc4cb40e0707c3d00ead9249ffec033b9cbe15",
+    "commit_message": ".ink -> .lnk",
+    "commit_date": "2022-07-04T19:23:34Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "7dc4c10fe4a37f626d5879502365fdc6f6da5079"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "7dc4c10fe4a37f626d5879502365fdc6f6da5079",
+    "commit_message": "Update README.md",
+    "commit_date": "2021-12-31T16:20:57Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c4f0f714e5b7f0ed35608dff8764f43da965e8e5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "c4f0f714e5b7f0ed35608dff8764f43da965e8e5",
+    "commit_message": "support windows 11",
+    "commit_date": "2021-12-31T16:04:22Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "16c802d90a67732cbfa47905f544abaf1e82fe4d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "16c802d90a67732cbfa47905f544abaf1e82fe4d",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-22T21:37:30Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "d4192be235b110211192d3255a2f2011746eba5d"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "d4192be235b110211192d3255a2f2011746eba5d",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-22T21:32:40Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "864d3c5cf6a10287cab43dd371e9f40b04e84dc6"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "864d3c5cf6a10287cab43dd371e9f40b04e84dc6",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-22T21:31:18Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e6e26fce4a5cde875ad5a968a6b9a4aa07aa8f32"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "e6e26fce4a5cde875ad5a968a6b9a4aa07aa8f32",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-22T21:26:06Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e4d8aab17db35a5b324d0b45d2098e36c78addee"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "e4d8aab17db35a5b324d0b45d2098e36c78addee",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-22T21:23:47Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e69ba085dee48e544a0f13d91757e91f6b74126c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "e69ba085dee48e544a0f13d91757e91f6b74126c",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-22T21:15:52Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "318023db1cc4d275a6a29bd3179e4b9f356ed9fd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "318023db1cc4d275a6a29bd3179e4b9f356ed9fd",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T19:07:51Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0c3cce379e63a5f3367c302e62c7fe4bda645ddb"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "0c3cce379e63a5f3367c302e62c7fe4bda645ddb",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T19:05:16Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "39224b3dd2e35e009f946b8e6e1046404672158f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "39224b3dd2e35e009f946b8e6e1046404672158f",
+    "commit_message": "Add files via upload",
+    "commit_date": "2020-12-13T18:57:10Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "1ac7c7865ca90f087d23640f6b0ff0d0966ac91c"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "1ac7c7865ca90f087d23640f6b0ff0d0966ac91c",
+    "commit_message": "Delete Mahoyo.exe.lnk",
+    "commit_date": "2020-12-13T18:56:49Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0359d7d01b16d981d998d06312f6837c384baa54"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "0359d7d01b16d981d998d06312f6837c384baa54",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:25:12Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "0341cd45ed36fdbc6268c04c6ac9c7522fe37915"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "0341cd45ed36fdbc6268c04c6ac9c7522fe37915",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:23:59Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e4f1f170bd5823209e7d94b8699967cfdfc61cf5"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "e4f1f170bd5823209e7d94b8699967cfdfc61cf5",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:22:18Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "81cec68ae606ff2c60124a3798e17c4c8824bc5f"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "81cec68ae606ff2c60124a3798e17c4c8824bc5f",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:20:19Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "c794b34638d43fa63e84fb1b245442638099f7b0"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "c794b34638d43fa63e84fb1b245442638099f7b0",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:19:23Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ecad5763a35f8c82760739eeaf409131e5bed00b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "ecad5763a35f8c82760739eeaf409131e5bed00b",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:18:09Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "6b879c3374dbf77582bb2d3ea282d43d2c62f71b"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "6b879c3374dbf77582bb2d3ea282d43d2c62f71b",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:16:08Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "5ef2bbac50e0efe33b1acde851d088fe49cc4aab"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "5ef2bbac50e0efe33b1acde851d088fe49cc4aab",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T14:07:21Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "e3e0665e1a75d0dc9dcb43592f921f3c5eaae668"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "e3e0665e1a75d0dc9dcb43592f921f3c5eaae668",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T13:57:16Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "8acff9d648db5eed6d5f2f0905ab728e4961cf45"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "8acff9d648db5eed6d5f2f0905ab728e4961cf45",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T13:57:06Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "832772cee972b3134a251440ddf11608e5a0f42a"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "832772cee972b3134a251440ddf11608e5a0f42a",
+    "commit_message": "Update README.md",
+    "commit_date": "2020-12-13T13:52:25Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "b18b5f04882bb7a9d2e34bef2aa31020de58c078"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "b18b5f04882bb7a9d2e34bef2aa31020de58c078",
+    "commit_message": "Add files via upload",
+    "commit_date": "2020-12-13T13:49:14Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 1,
+    "commit_parents": [
+      "ee4e3656be6409fe115dfef8c5699c34e69b15bd"
+    ],
+    "is_initial": false
+  },
+  {
+    "repo_id": 321075657,
+    "branch_name": "main",
+    "commit_sha": "ee4e3656be6409fe115dfef8c5699c34e69b15bd",
+    "commit_message": "Initial commit",
+    "commit_date": "2020-12-13T13:48:48Z",
+    "commit_author_login": "requinDr",
+    "commit_committer_login": "web-flow",
+    "commit_parent_count": 0,
+    "commit_parents": [],
+    "is_initial": true
   }
 ]
