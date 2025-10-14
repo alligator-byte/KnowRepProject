@@ -7,9 +7,18 @@
     <h1>Repositories</h1>
     <ul>
         {% for repo in repos %}
-            <li>{{ repo.name }}</li>
-            <a href="{{ url_for('repo_detail', repo_name=repo.name) }}">{{ repo.name }}</a>
+            <li>
+                <a href="{{ url_for('repo_detail', repo_name=repo.name) }}">
+                    {{ repo.repoName if repo.repoName else repo.name }}
+                </a>
+                <small>(internal: {{ repo.name }})</small>
+            </li>
         {% endfor %}
     </ul>
+    <form action="{{ url_for('search') }}" method="get">
+        <input type="text" name="q" placeholder="Search repositories...">
+        <input type="submit" value="Search">
+    </form>
+    <a href="{{ url_for('errors') }}">View Data Errors</a>
 </body>
 </html>

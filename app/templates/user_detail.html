@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details - {{ user.name }}</title>
+</head>
+<body>
+    <h1>User: {{ user.name }}</h1>
+    <ul>
+        <li><strong>IRI:</strong> {{ user.iri }}</li>
+        {% if user.user_url %}
+        <li><strong>GitHub:</strong> <a href="{{ user.user_url }}">{{ user.user_url }}</a></li>
+        {% endif %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to all repositories</a>
+</body>
+</html>

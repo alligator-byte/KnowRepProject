@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Commit Details - {{ commit.name }}</title>
+</head>
+<body>
+    <h1>Commit: {{ commit.name }}</h1>
+    <ul>
+        <li><strong>IRI:</strong> {{ commit.iri }}</li>
+        {% if commit.commitMessage %}
+        <li><strong>Message:</strong> {{ commit.commitMessage }}</li>
+        {% endif %}
+        {% if commit.timestamp %}
+        <li><strong>Date:</strong> {{ commit.timestamp }}</li>
+        {% endif %}
+        {% if commit.authoredBy %}
+        <li>
+            <strong>Author(s):</strong>
+            <ul>
+                {% for user in commit.authoredBy %}
+                    <li>
+                        <a href="{{ url_for('user_detail', user_name=user.name) }}">{{ user.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
+        {% if commit.hasParent %}
+        <li>
+            <strong>Parent(s):</strong>
+            <ul>
+                {% for parent in commit.hasParent %}
+                    <li>
+                        <a href="{{ url_for('commit_detail', commit_name=parent.name) }}">{{ parent.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to all repositories</a>
+</body>
+</html>

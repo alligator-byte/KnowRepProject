@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Errors</title>
+</head>
+<body>
+    <h1>Data Errors</h1>
+    <ul>
+        {% for error in errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to all repositories</a>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Details - {{ file.name }}</title>
+</head>
+<body>
+    <h1>File: {{ file.name }}</h1>
+    <ul>
+        <li><strong>IRI:</strong> {{ file.iri }}</li>
+    </ul>
+    <a href="{{ url_for('index') }}">Back to all repositories</a>
+</body>
+</html>
