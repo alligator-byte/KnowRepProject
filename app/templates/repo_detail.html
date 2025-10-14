@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Repository Details - {{ repo.name }}</title>
+</head>
+<body>
+    <h1>Repository: {{ repo.name }}</h1>
+    <ul>
+        <li><strong>IRI:</strong> {{ repo.iri }}</li>
+        {% if repo.hasBranch %}
+        <li>
+            <strong>Branches:</strong>
+            <ul>
+                {% for branch in repo.hasBranch %}
+                    <li>
+                        <a href="{{ url_for('branch_detail', branch_name=branch.name) }}">{{ branch.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
+        {% if repo.hasCommit %}
+        <li>
+            <strong>Commits:</strong>
+            <ul>
+                {% for commit in repo.hasCommit %}
+                    <li>
+                        <a href="{{ url_for('commit_detail', commit_name=commit.name) }}">{{ commit.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to all repositories</a>
+</body>
+</html>
