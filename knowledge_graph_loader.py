@@ -78,9 +78,9 @@ def load_knowledge_graph():
     for branch in branches_data:
         branch_id = f"branch_{_safe_id(branch['repo_id'])}_{_safe_id(branch['branch_name'])}"
         branch_instances[branch_id] = onto.Branch(branch_id)
-        branch_instances[branch_id].branchName = [branch['branch_name']]
+        branch_instances[branch_id].branchName = branch['branch_name']
         if hasattr(onto, 'isDefault') and 'is_default' in branch:
-            branch_instances[branch_id].isDefault = [bool(branch['is_default'])]
+            branch_instances[branch_id].isDefault = bool(branch['is_default'])
         
         # Connect branch to repository
         repo_id = branch['repo_id']
@@ -93,14 +93,14 @@ def load_knowledge_graph():
         commit_instances[commit_sha] = onto.Commit(_safe_id(commit_sha))
 
         # Set commit properties
-        commit_instances[commit_sha].commitMessage = [commit.get('commit_message', '')]
+        commit_instances[commit_sha].commitMessage = commit.get('commit_message', '')
 
         # Parse and set timestamp
         try:
             commit_date = datetime.datetime.fromisoformat(
                 commit['commit_date'].replace('Z', '+00:00')
             )
-            commit_instances[commit_sha].timestamp = [commit_date]
+            commit_instances[commit_sha].timestamp = commit_date
         except:
             pass  # Skip if date parsing fails
 
