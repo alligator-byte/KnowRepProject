@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Repository Details - {{ repo.repoName if repo.repoName else repo.name }}</title>
+    <title>Branch Details - {{ branch.name }}</title>
 </head>
 <body>
-    <h1>Repository: {{ repo.repoName if repo.repoName else repo.name }}</h1>
+    <h1>Branch: {{ branch.name }}</h1>
     <ul>
-        <li><strong>Internal Name:</strong> {{ repo.name }}</li>
-        <li><strong>IRI:</strong> {{ repo.iri }}</li>
+        <li><strong>IRI:</strong> {{ branch.iri }}</li>
+        {% if branch.branchName %}
+        <li><strong>Branch Name:</strong> {{ branch.branchName }}</li>
+        {% endif %}
+        {% if branch.isDefault is not none %}
+        <li><strong>Is Default:</strong> {{ branch.isDefault }}</li>
+        {% endif %}
+        {% if branch.hasCommit %}
+        <li>
+            <strong>Commits:</strong>
+            <ul>
+                {% for commit in branch.hasCommit %}
+                    <li>
+                        <a href="{{ url_for('commit_detail', commit_name=commit.name) }}">{{ commit.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
     </ul>
-    {% if repo.hasBranch %}
-    <h2>Branches</h2>
-    <ul>
-        {% for branch in repo.hasBranch %}
-            <li>
-                <a href="{{ url_for('branch_detail', branch_name=branch.name) }}">{{ branch.name }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-    {% if repo.hasCommit %}
-    <h2>Commits</h2>
-    <ul>
-        {% for commit in repo.hasCommit %}
-            <li>
-                <a href="{{ url_for('commit_detail', commit_name=commit.name) }}">{{ commit.name }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
     <a href="{{ url_for('index') }}">Back to all repositories</a>
 </body>
 </html>
