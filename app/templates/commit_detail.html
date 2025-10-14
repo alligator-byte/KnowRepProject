@@ -39,5 +39,18 @@
         {% endif %}
     </ul>
     <a href="{{ url_for('index') }}">Back to all repositories</a>
+
+    {% if commit.modifiesFile %}
+<li>
+    <strong>Files Changed:</strong>
+    <ul>
+        {% for file in commit.modifiesFile %}
+            <li>
+                <a href="{{ url_for('file_detail', file_name=file.name) }}">{{ file.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</li>
+{% endif %}
 </body>
 </html>

@@ -59,25 +59,34 @@ def search():
 
 @app.route("/errors")
 def errors():
-    # Identify and display ontology/data errors
     errors = []
-    # Example: find repos with no branches
+    # 1. Repository must have at least one branch
     for repo in [r for r in onto.individuals() if "Repository" in r.is_a[0].name]:
         if not list(getattr(repo, "hasBranch", [])):
-            errors.append(f"Repository {repo.name} has no branches.")
-    # Add more error checks as needed
-    return render_template("errors.html", errors=errors)
+            errors.append(f"Repository {getattr(repo, 'repoName', repo.name)} has no branches.")
 
-'''NOTE:
-Rquires the following html templates files:
-- repo_detail
-- branch_detail
-- commit_detail
-- user_detail
-- file_detail
-- search.html
-- errors.html
-'''
+    # 2. Branch must have at least one commit and an initial commit
+    for branch in [b for b in onto.individuals() if "Branch" in b.is_a[0].name]:
+        commits = list(getattr(branch, "hasCommit", []))
+        if not commits:
+            errors.append(f"Branch {branch.name} has no commits.")
+        if not any(getattr(commit, "isInitial", False) for commit in commits):
+            errors.append(f"Branch {branch.name} has no initial commit.")
+
+    # 3. Commit must have user, timestamp, message, modifiesFile, and parent (unless initial)
+    for commit in [c for c in onto.individuals() if "Commit" in c.is_a[0].name]:
+        if not getattr(commit, "authoredBy", None):
+            errors.append(f"Commit {commit.name} has no author.")
+        if not getattr(commit, "timestamp", None):
+            errors.append(f"Commit {commit.name} has no timestamp.")
+        if not getattr(commit, "commitMessage", None):
+            errors.append(f"Commit {commit.name} has no message.")
+        if not getattr(commit, "modifiesFile", None):
+            errors.append(f"Commit {commit.name} does not modify any files.")
+        if not getattr(commit, "hasParent", None) and not getattr(commit, "isInitial", False):
+            errors.append(f"Commit {commit.name} has no parent and is not initial.")
+
+    return render_template("errors.html", errors=errors)
 
 if __name__ == "__main__":
     app.run(debug=True)
