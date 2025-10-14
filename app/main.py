@@ -21,6 +21,9 @@ def repo_detail(repo_name):
     # Find repo by name
     repo = next((r for r in onto.individuals() if r.name == repo_name), None)
     # Get branches, commits, etc.
+    print("Repo:", repo)
+    print("Branches:", getattr(repo, "hasBranch", []))
+    print("Commits:", getattr(repo, "hasCommit", []))
     return render_template("repo_detail.html", repo=repo)
 
 @app.route("/branch/<branch_name>")

@@ -56,7 +56,7 @@ def load_knowledge_graph():
         inst = onto.Repository(repo_ind_name)
         # set label/name for easier SPARQL
         if hasattr(onto, 'repoName'):
-            inst.repoName = [repo.get('repo_name', str(rid))]
+            inst.repoName = repo.get('repo_name', str(rid))
         repo_instances[rid] = inst
     
     # 3. Create File instances and connect to repositories
@@ -107,7 +107,8 @@ def load_knowledge_graph():
         # Connect commit to author
         author_login = commit['commit_author_login']
         if author_login and author_login in user_instances:
-            commit_instances[commit_sha].authoredBy = [user_instances[author_login]]
+            #commit_instances[commit_sha].authoredBy = user_instances[author_login]
+            commit_instances[commit_sha].authoredBy.append(user_instances[author_login])
 
         # Connect commit to branch
         branch_id = f"branch_{_safe_id(commit['repo_id'])}_{_safe_id(commit['branch_name'])}"
@@ -136,7 +137,7 @@ def load_knowledge_graph():
         # store parentCount as data property for SPARQL filtering
         if hasattr(onto, 'parentCount'):
             try:
-                commit_instances[commit_sha].parentCount = [int(parent_count)]
+                commit_instances[commit_sha].parentCount = int(parent_count)
             except Exception:
                 pass
         # optionally also assert rdf:type based on count without destroying entity

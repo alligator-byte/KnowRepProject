@@ -8,6 +8,7 @@
     <ul>
         {% for repo in repos %}
             <li>{{ repo.name }}</li>
+            <a href="{{ url_for('repo_detail', repo_name=repo.name) }}">{{ repo.name }}</a>
         {% endfor %}
     </ul>
 </body>
