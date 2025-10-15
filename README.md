@@ -127,3 +127,8 @@ Notes:
 - The ontology is defined in `ontology/ontology_definition.py` and saved to `ontology/git_ontology.owl`.
 - The populated graph is saved to `git_knowledge_graph.owl` in the project root.
 
+
+
+#### How to run Flask
+Write: ```python app/main.py``` into terminal.
+This will create an instance of the server and allow you traverse all the reposistories
