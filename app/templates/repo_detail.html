@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Repository Details - {{ repo.repoName if repo.repoName else repo.name }}</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Repository: {{ repo.repoName if repo.repoName else repo.name }}</h1>

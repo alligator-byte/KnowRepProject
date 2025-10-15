@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Git Knowledge Graph</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Repositories</h1>
+
+    <form class="search-box" action="{{ url_for('search') }}" method="get">
+        <input type="text" name="q" placeholder="Search repositories...">
+        <input type="submit" value="Search">
+    </form>
+
     <ul>
         {% for repo in repos %}
             <li>
                 <a href="{{ url_for('repo_detail', repo_name=repo.name) }}">
-                    {{ repo.repoName if repo.repoName else repo.name }}
+                    {{ repo.repoName | default(repo.name) }}
                 </a>
                 <small>(internal: {{ repo.name }})</small>
             </li>
         {% endfor %}
     </ul>
-    <form action="{{ url_for('search') }}" method="get">
-        <input type="text" name="q" placeholder="Search repositories...">
-        <input type="submit" value="Search">
-    </form>
-    <a href="{{ url_for('errors') }}">View Data Errors</a>
+
+    <a class="errors" href="{{ url_for('errors') }}">View Data Errors</a>
 </body>
 </html>

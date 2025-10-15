@@ -82,31 +82,33 @@ def search():
 @app.route("/errors")
 def errors():
     errors = []
-    # 1. Repository must have at least one branch
+    #All repos need at least one branch
     for repo in [r for r in onto.individuals() if "Repository" in r.is_a[0].name]:
         if not list(getattr(repo, "hasBranch", [])):
-            errors.append(f"Repository {getattr(repo, 'repoName', repo.name)} has no branches.")
+            errors.append(f"Repository Error: {getattr(repo, 'repoName', repo.name)} has no branches.")
 
-    # 2. Branch must have at least one commit and an initial commit
+    # Branch need (at min) one commit and an initial commit
     for branch in [b for b in onto.individuals() if "Branch" in b.is_a[0].name]:
         commits = list(getattr(branch, "hasCommit", []))
         if not commits:
             errors.append(f"Branch {branch.name} has no commits.")
         if not any(getattr(commit, "isInitial", False) for commit in commits):
-            errors.append(f"Branch {branch.name} has no initial commit.")
+            errors.append(f"Branch Error: {branch.name} has no initial commit.")
 
-    # 3. Commit must have user, timestamp, message, modifiesFile, and parent (unless initial)
+    # Commits require:
+    # user, timestamp, message, modifiesFile, and parent (unless initial)
+    # raise errors if not 
     for commit in [c for c in onto.individuals() if "Commit" in c.is_a[0].name]:
         if not getattr(commit, "authoredBy", None):
-            errors.append(f"Commit {commit.name} has no author.")
+            errors.append(f"Commit Author_Error: {commit.name} has no author.")
         if not getattr(commit, "timestamp", None):
-            errors.append(f"Commit {commit.name} has no timestamp.")
+            errors.append(f"Commit Time_Stamp_Error: {commit.name} has no timestamp.")
         if not getattr(commit, "commitMessage", None):
-            errors.append(f"Commit {commit.name} has no message.")
+            errors.append(f"Commit Message_Error: {commit.name} has no message.")
         if not getattr(commit, "modifiesFile", None):
-            errors.append(f"Commit {commit.name} does not modify any files.")
+            errors.append(f"Commit File_Change_Error: {commit.name} does not modify any files.")
         if not getattr(commit, "hasParent", None) and not getattr(commit, "isInitial", False):
-            errors.append(f"Commit {commit.name} has no parent and is not initial.")
+            errors.append(f"Commit Parent_Error: {commit.name} has no parent and is not initial.")
 
     return render_template("errors.html", errors=errors)
 
