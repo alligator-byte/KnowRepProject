@@ -52,10 +52,32 @@ def file_detail(file_name):
 
 @app.route("/search")
 def search():
-    # Simple search by query string
     q = request.args.get("q", "").lower()
-    results = [r for r in onto.individuals() if q in r.name.lower()]
-    return render_template("search.html", results=results, query=q)
+    if not q:
+        return render_template("search_results.html", results=[], q=q)
+
+    results = []
+    for r in onto.individuals():
+        # check name match
+        if q in r.name.lower():
+            results.append(r)
+            continue
+
+        # check common descriptive properties
+        for p in ("repoName", "commitMessage", "branchName"):
+            if hasattr(r, p):
+                val = getattr(r, p)
+                # Some OWLReady2 properties are lists
+                if isinstance(val, list):
+                    if any(q in str(v).lower() for v in val):
+                        results.append(r)
+                        break
+                else:
+                    if q in str(val).lower():
+                        results.append(r)
+                        break
+
+    return render_template("search_results.html", results=results, q=q)
 
 @app.route("/errors")
 def errors():

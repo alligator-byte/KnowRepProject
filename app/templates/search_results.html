@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results for "{{ q }}"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .search-box {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        li a {
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        small {
+            color: #888;
+        }
+        .no-results {
+            color: #888;
+            font-style: italic;
+            margin-top: 20px;
+        }
+        a.back {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            color: #3498db;
+        }
+        a.back:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search Results for "{{ q }}"</h1>
+
+    <form class="search-box" action="{{ url_for('search') }}" method="get">
+        <input type="text" name="q" value="{{ q }}" placeholder="Search repositories, commits...">
+        <input type="submit" value="Search">
+    </form>
+
+    {% if results %}
+    <ul>
+        {% for item in results %}
+            {% set type = item.is_a[0].name %}
+            {% if "Repo" in type %}
+                <li>
+                    <a href="{{ url_for('repo_detail', repo_name=item.name) }}">
+                        {{ item.repoName | default(item.name) }}
+                    </a>
+                    <small>Repository</small>
+                </li>
+            {% elif "Branch" in type %}
+                <li>
+                    <a href="{{ url_for('branch_detail', branch_name=item.name) }}">
+                        {{ item.name }}
+                    </a>
+                    <small>Branch</small>
+                </li>
+            {% elif "Commit" in type %}
+                <li>
+                    <a href="{{ url_for('commit_detail', commit_name=item.name) }}">
+                        {{ item.name }}
+                    </a>
+                    <small>Commit</small>
+                </li>
+            {% elif "User" in type %}
+                <li>
+                    <a href="{{ url_for('user_detail', user_name=item.name) }}">
+                        {{ item.name }}
+                    </a>
+                    <small>User</small>
+                </li>
+            {% elif "File" in type %}
+                <li>
+                    <a href="{{ url_for('file_detail', file_name=item.name) }}">
+                        {{ item.name }}
+                    </a>
+                    <small>File</small>
+                </li>
+            {% else %}
+                <li>
+                    {{ item.name }}
+                    <small>{{ type }}</small>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p class="no-results">No results found for "<strong>{{ q }}</strong>".</p>
+    {% endif %}
+
+    <a class="back" href="{{ url_for('index') }}">← Back to Repositories</a>
+</body>
+</html>
