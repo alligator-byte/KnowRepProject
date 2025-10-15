@@ -48,7 +48,26 @@ def user_detail(user_name):
 def file_detail(file_name):
     # Show details for a single file
     file = next((f for f in onto.individuals() if f.name == file_name), None)
-    return render_template("file_detail.html", file=file)
+    if file is None:
+        return "File not found", 404
+
+    # Inferred classes
+    file_classes = [cls.name for cls in file.is_a]
+
+    # Relations: property name -> value(s)
+    file_relations = []
+    for prop in file.get_properties():
+        values = getattr(file, prop.name)
+        if values:  # skip empty properties
+            file_relations.append((prop.name, values))
+
+    return render_template(
+        "file_detail.html",
+        file=file,
+        file_classes=file_classes,
+        file_relations=file_relations
+    )
+
 
 @app.route("/search")
 def search():
