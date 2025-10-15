@@ -1,9 +1,9 @@
 # KnowRepProject
 2025 Sem 2 Project for CITS3005 Knowledge Representation
 .
-# From LMS Spec (summary)
+# Spec Checklist
 
-### 📦 Ontology Design (25%) [HIGH PRIORITY]
+### 📦 Ontology Design (25%) [DONE]
 
 * [ ] Design an OWL ontology using **OWLReady2** to represent key Git concepts:
 
@@ -22,7 +22,7 @@
 
 ---
 
-### 🧠 Knowledge Graph + Queries (25%) [HIGH PRIORITY]
+### 🧠 Knowledge Graph + Queries (25%) [Partially Complete]
 
 * [ ] Build a **knowledge graph in OWLReady2** using metadata from **at least 20 Git repositories**
 * [ ] Provide a `.py` script to load data into **RDFLib** and run **SPARQL queries**:
@@ -34,7 +34,7 @@
 
 ---
 
-### 🖥️ Python App (15%) [LOW PRIORITY]
+### 🖥️ Python App (15%) [Half way]
 
 * [ ] Create a **command-line or Flask-based application** to:
 
@@ -45,7 +45,7 @@
 
 ---
 
-### 📘 User Manual (25%) [MED PRIORITY]
+### 📘 User Manual (25%) [Not started]
 How to interact with what we've made
 
 * [ ] Write a **User Manual** in PDF or Markdown/HTML, including:
@@ -57,7 +57,7 @@ How to interact with what we've made
 
 ---
 
-### 🧾 Individual Report (10%) [LOW PRIORITY]
+### 🧾 Individual Report (10%) [Leave for Friday]
 
 * [ ] Write a **personal PDF report** discussing:
 
@@ -73,14 +73,9 @@ How to interact with what we've made
 
 ### 📁 Submission Checklist
 
-* [ ] Submit a `.zip` file with:
+* Lots of files - double check LMS on all specific formats
 
-  * OWL ontology and optional pySHACL validation
-  * Knowledge graph scripts and sample data
-  * SPARQL query scripts
-  * Python app (CLI or Flask)
-  * User Manual (PDF or Markdown)
-  * Individual report (PDF)
+  * **Write names and student numbers on all the code/files we have written**
 * ⚠️ Do **not** include full Git repositories — only metadata necessary to demonstrate functionality
 
 
