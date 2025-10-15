@@ -25,7 +25,10 @@
     <ul>
         {% for commit in repo.hasCommit %}
             <li>
-                <a href="{{ url_for('commit_detail', commit_name=commit.name) }}">{{ commit.name }}</a>
+                {# Prefer showing the commit message when available, otherwise show short SHA #}
+                {% set label = commit.commitMessage if commit.commitMessage else commit.name[:7] %}
+                <a href="{{ url_for('commit_detail', commit_name=commit.name) }}">{{ label }}</a>
+                <small>({{ commit.name[:7] }})</small>
             </li>
         {% endfor %}
     </ul>

@@ -33,10 +33,9 @@
                 </li>
             {% elif "Commit" in type %}
                 <li>
-                    <a href="{{ url_for('commit_detail', commit_name=item.name) }}">
-                        {{ item.name }}
-                    </a>
-                    <small>Commit</small>
+                    {% set label = item.commitMessage if item.commitMessage else item.name[:7] %}
+                    <a href="{{ url_for('commit_detail', commit_name=item.name) }}">{{ label }}</a>
+                    <small>Commit ({{ item.name[:7] }})</small>
                 </li>
             {% elif "User" in type %}
                 <li>

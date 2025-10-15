@@ -5,7 +5,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Commit: {{ commit.name }}</h1>
+    {# Prefer showing the commit message as the title; fall back to short SHA #}
+    <h1>Commit: {{ commit.commitMessage if commit.commitMessage else commit.name[:7] }}</h1>
+    <ul>
+        <li><strong>Full SHA:</strong> {{ commit.name }}</li>
+    </ul>
     <ul>
         <li><strong>IRI:</strong> {{ commit.iri }}</li>
         {% if commit.commitMessage %}
@@ -32,7 +36,10 @@
             <ul>
                 {% for parent in commit.hasParent %}
                     <li>
-                        <a href="{{ url_for('commit_detail', commit_name=parent.name) }}">{{ parent.name }}</a>
+                        {# Show parent commit message when present, otherwise short SHA #}
+                        {% set parent_label = parent.commitMessage if parent.commitMessage else parent.name[:7] %}
+                        <a href="{{ url_for('commit_detail', commit_name=parent.name) }}">{{ parent_label }}</a>
+                        <small>({{ parent.name[:7] }})</small>
                     </li>
                 {% endfor %}
             </ul>
