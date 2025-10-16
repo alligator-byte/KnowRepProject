@@ -1,3 +1,16 @@
+'''
+Luke Vidovich (23814635) 
+
+Sina Shahrivar (22879249) 
+
+
+Flask main app and routes required to make a usable app.
+This app will allow users to traverse the Knowledge Graph JSONs with ease.
+
+'''
+
+
+
 # This file and folder is for Flask for later
 from flask import Flask, render_template, request 
 from owlready2 import get_ontology

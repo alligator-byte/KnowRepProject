@@ -1,4 +1,10 @@
 """
+Luke Vidovich (23814635) 
+
+Sina Shahrivar (22879249) 
+
+
+
 SPARQL Queries for the Git Knowledge Graph using RDFLib
 
 Usage examples (PowerShell):

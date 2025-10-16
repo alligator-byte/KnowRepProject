@@ -1,9 +1,13 @@
 """
-OWL2Ready will define:
+Luke Vidovich (23814635) 
 
+Sina Shahrivar (22879249) 
+
+
+Defines the following:
 - Repository, Branch, Commit, User, File
 - Properties: hasBranch, hasCommit, authoredBy, modifiesFile, hasParent, etc.
-- Datatype properties: timestamp, commitMessage, branchName
+- "Datatype" properties: timestamp, commitMessage, branchName
 """
 import os
 import datetime
