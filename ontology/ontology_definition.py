@@ -93,6 +93,13 @@ with onto:
     # Merged - least 2 parents
     MergeCommit.is_a.append(hasParent.min(2, Commit))
 
+
+# Apply reasoning
+from owlready2 import sync_reasoner
+# Run the reasoner - will help infer new facts
+with onto:
+    sync_reasoner()
+
 #save what we've created here to a file
 onto.save(file=os.path.join(os.path.dirname(__file__), "git_ontology.owl"), format="rdfxml")
 
