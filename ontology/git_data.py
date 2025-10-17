@@ -27,7 +27,8 @@ REPOS = [
     "ShahDhruvik/TypeScriptBackend",
     "ShahDhruvik/nextjs13",
     "ShahDhruvik/my-portfolio-site",
-    "ShahDhruvik/my-portfolio-backend"
+    "ShahDhruvik/my-portfolio-backend", 
+    "Sina-Jeff/Test_repo"
 ]
 
 later = [    
@@ -115,9 +116,7 @@ def fetch_all_commits(full_name, branch):
         page += 1
     return all_commits
 
-# -----------------------------
 # Main
-# -----------------------------
 def main():
     repos_out, branches_out, commits_out, users_out, files_out = [], [], [], [], []
     seen_users = set()

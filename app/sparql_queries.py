@@ -46,9 +46,11 @@ def q_unmerged_branches(g: Graph):
     query = f"""
     PREFIX git: <{GIT}>
     PREFIX rdf: <{RDF}>
-    SELECT ?repo (COUNT(DISTINCT ?b) AS ?unmergedCount)
+    # return repo, count and a sample repoName (if available) for friendly display
+    SELECT ?repo (COUNT(DISTINCT ?b) AS ?unmergedCount) (SAMPLE(?rname) AS ?repoName)
     WHERE {{
       ?repo rdf:type git:Repository ; git:hasBranch ?b .
+      OPTIONAL {{ ?repo git:repoName ?rname }}
       OPTIONAL {{ ?b git:isDefault ?isd }}
       FILTER(!BOUND(?isd) || ?isd = false)
       FILTER NOT EXISTS {{
@@ -152,8 +154,10 @@ def main():
       print(str(r[0]))
   elif args.cmd == 'unmerged':
     rows = q_unmerged_branches(g)
-    for repo, count in rows:
-      print(f"{repo} -> {count}")
+    for repo, count, rname in rows:
+      # rname may be None; prefer human-friendly repoName when present
+      label = str(rname) if rname else str(repo)
+      print(f"{label} -> {count}  ({repo})")
   elif args.cmd == 'concurrent':
     results = q_concurrent_contributors_monthly(g)
     for user, month, count in results:
