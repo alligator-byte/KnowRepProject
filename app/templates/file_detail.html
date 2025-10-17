@@ -2,16 +2,48 @@
  <!-- Sina Shahrivar (22879249)  -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>File Details - {{ file.name }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>File: {{ file.name }}</h1>
+
     <ul>
         <li><strong>IRI:</strong> {{ file.iri }}</li>
     </ul>
+
+    <!-- Inferred Classes -->
+    <h2>Classes</h2>
+    {% if file_classes %}
+        <ul>
+            {% for cls in file_classes %}
+                <li>{{ cls }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No inferred classes found.</p>
+    {% endif %}
+
+    <!-- Relations -->
+    <h2>Relations</h2>
+    {% if file_relations %}
+        <ul>
+            {% for prop, values in file_relations %}
+                <li>
+                    <strong>{{ prop }}:</strong>
+                    {% for v in values %}
+                        {{ v.name if v.name else v }}{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No relations found.</p>
+    {% endif %}
+
     <a href="{{ url_for('index') }}">Back to all repositories</a>
 </body>
 </html>

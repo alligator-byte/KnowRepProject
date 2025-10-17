@@ -9,8 +9,6 @@ This app will allow users to traverse the Knowledge Graph JSONs with ease.
 
 '''
 
-
-
 # This file and folder is for Flask for later
 from flask import Flask, render_template, request 
 from owlready2 import get_ontology
@@ -33,33 +31,33 @@ def repo_detail(repo_name):
     # Show details for a single repository
     # Find repo by name
     repo = next((r for r in onto.individuals() if r.name == repo_name), None)
-    # Get branches, commits, etc.
+    # Get what it links to
     print("Repo:", repo)
     print("Branches:", getattr(repo, "hasBranch", []))
     print("Commits:", getattr(repo, "hasCommit", []))
     return render_template("repo_detail.html", repo=repo)
 
+# Show specific branch info
 @app.route("/branch/<branch_name>")
 def branch_detail(branch_name):
-    # Show details for a single branch
     branch = next((b for b in onto.individuals() if b.name == branch_name), None)
     return render_template("branch_detail.html", branch=branch)
 
+#single commit's info
 @app.route("/commit/<commit_name>")
 def commit_detail(commit_name):
-    # Show details for a single commit
     commit = next((c for c in onto.individuals() if c.name == commit_name), None)
     return render_template("commit_detail.html", commit=commit)
 
+#user info
 @app.route("/user/<user_name>")
 def user_detail(user_name):
-    # Show details for a single user
     user = next((u for u in onto.individuals() if u.name == user_name), None)
     return render_template("user_detail.html", user=user)
 
 @app.route("/file/<file_name>")
 def file_detail(file_name):
-    # Show details for a single file
+
     file = next((f for f in onto.individuals() if f.name == file_name), None)
     if file is None:
         return "File not found", 404
@@ -67,7 +65,7 @@ def file_detail(file_name):
     # Inferred classes
     file_classes = [cls.name for cls in file.is_a]
 
-    # Relations: property name -> value(s)
+    # Find Relations
     file_relations = []
     for prop in file.get_properties():
         values = getattr(file, prop.name)
