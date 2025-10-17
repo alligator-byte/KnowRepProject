@@ -28,28 +28,22 @@ REPOS = [
     "ShahDhruvik/nextjs13",
     "ShahDhruvik/my-portfolio-site",
     "ShahDhruvik/my-portfolio-backend", 
-    "Sina-Jeff/Test_repo"
-]
-
-later = [    
+    "Sina-Jeff/Test_repo",
     "Donaks1/gsauwa",
     "Donaks1/Donaks1.github.io",
-    "emilyand-i/AgileWebGroup82",
     "Bortalis/Networks",
-    
-    "tri-tim-m-nguyen/study-plan-application"]
+    "KOBE24MAN/aaa",
+    "alligator-byte/Group-7-Embedded-Systems-2025",
+    "Donaks1/gsa",
+    "Bortalis/3403-Agile",
+    "ahamedfahim246/lab_5",
+    "Donaks1/Hangman",
+    "Donaks1/testagit",
+    "tri-tim-m-nguyen/study-plan-application",
+    "codersforcauses/guild-volunteering",
+    "cmdr2/github-actions-wizard",
+]
 
-complete = ["KOBE24MAN/aaa",
-            "codersforcauses/guild-volunteering",
-            "cmdr2/github-actions-wizard",
-            "alligator-byte/Group-7-Embedded-Systems-2025",
-            "Donaks1/gsa",
-            "Bortalis/3403-Agile",
-            "ahamedfahim246/lab_5",
-            "Donaks1/Hangman",
-            "Donaks1/testagit"
-            ]
-count = 9
 
 OUTPUT_FILES = {
     "repos": "./data/repos.json",
