@@ -1,5 +1,9 @@
 """
-Knowledge Graph Loader - Loads GitHub data into OWLReady2 ontology
+Luke Vidovich (23814635) 
+
+Sina Shahrivar (22879249) 
+
+Knowledge Graph Loader - Loads GitHub data into our freshly created OWLReady2 ontology
 """
 import json
 import datetime

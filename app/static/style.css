@@ -1,4 +1,9 @@
-/* General body settings */
+/*  
+Luke Vidovich (23814635) 
+
+Sina Shahrivar (22879249) 
+
+*/
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
@@ -6,12 +11,11 @@ body {
     color: #333;
 }
 
-/* Headings */
 h1, h2 {
     color: #2c3e50;
 }
 
-/* Forms */
+
 .search-box {
     margin-bottom: 20px;
 }
@@ -33,7 +37,7 @@ input[type="submit"]:hover {
     background-color: #2980b9;
 }
 
-/* Lists */
+
 ul {
     list-style: none;
     padding: 0;
@@ -57,14 +61,13 @@ small {
     color: #888;
 }
 
-/* Special text */
 .no-results {
     color: #888;
     font-style: italic;
     margin-top: 20px;
 }
 
-/* Links */
+/* Links to other pages or types of pages ie) commit to user */
 a.back, a.errors {
     display: inline-block;
     margin-top: 25px;

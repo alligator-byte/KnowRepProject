@@ -1,9 +1,13 @@
 """
-OWL2Ready will define:
+Luke Vidovich (23814635) 
 
+Sina Shahrivar (22879249) 
+
+
+Defines the following:
 - Repository, Branch, Commit, User, File
 - Properties: hasBranch, hasCommit, authoredBy, modifiesFile, hasParent, etc.
-- Datatype properties: timestamp, commitMessage, branchName
+- "Datatype" properties: timestamp, commitMessage, branchName
 """
 import os
 import datetime
@@ -88,6 +92,13 @@ with onto:
     RegularCommit.is_a.append(hasParent.min(1, Commit))
     # Merged - least 2 parents
     MergeCommit.is_a.append(hasParent.min(2, Commit))
+
+
+# Apply reasoning
+from owlready2 import sync_reasoner
+# Run the reasoner - will help infer new facts
+with onto:
+    sync_reasoner()
 
 #save what we've created here to a file
 onto.save(file=os.path.join(os.path.dirname(__file__), "git_ontology.owl"), format="rdfxml")
